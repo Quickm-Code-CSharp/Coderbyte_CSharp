@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy Challenges\AlphabetSorter.cs" />
     <Compile Include="Easy Challenges\TimeConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -53,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Medium Challenges\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Easy Challenges\EasyChallenges.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

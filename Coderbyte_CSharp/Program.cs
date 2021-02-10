@@ -16,6 +16,7 @@ namespace Coderbyte_CSharp
             TestChallenge tc = new TestChallenge();
 
             tc.Test_TimeConvert();
+            tc.Test_AlphabetSoup();
         }
     }
 }
