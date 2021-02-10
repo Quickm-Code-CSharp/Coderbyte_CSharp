@@ -1,6 +1,6 @@
 ﻿The completed code challenges are:
 
-Alphabet Soup
+Alphabet Soup		02/10/2021
 ArithGeo
 Check Numbers
 Find Intersection
