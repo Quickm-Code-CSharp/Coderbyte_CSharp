@@ -10,6 +10,12 @@ namespace Coderbyte_CSharp
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("Welcome to Coderbyte C-Sharp code challenge solutions...");
+            System.Console.WriteLine();
+
+            TestChallenge tc = new TestChallenge();
+
+            tc.Test_TimeConvert();
         }
     }
 }
