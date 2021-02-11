@@ -20,6 +20,7 @@ namespace Coderbyte_CSharp
             tc.Test_ArithGeoSequence();
             tc.Test_Palindrome();
             tc.Test_NumberCheck();
+            tc.Test_FindIntersection();
         }
     }
 }

@@ -3,7 +3,7 @@
 Alphabet Soup		02/10/2021
 ArithGeo			02/10/2021
 Check Numbers		02/10/2021
-Find Intersection
+Find Intersection	02/11/2021
 First Factorial
 First Reverse
 Letter Capitalize

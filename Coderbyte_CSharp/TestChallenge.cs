@@ -108,10 +108,25 @@ namespace Coderbyte_CSharp
             System.Console.WriteLine("Input: {0}, {1}", num1, num2);
             System.Console.WriteLine("Output: {0}", checker.CheckNumber(num1, num2));
 
-
-
             System.Console.WriteLine();
         }
 
+        public void  Test_FindIntersection()
+        {
+            string[] strArr =  new string[2];
+            string one = "3, 4, 7, 11, 21";
+            string two = "4, 6, 7, 13, 21";
+
+            strArr[0] = one;
+            strArr[1] = two;
+
+            StringIntersection si = new StringIntersection();
+
+            System.Console.WriteLine("FindIntersection: ");
+            System.Console.WriteLine("Input: first: {0} , second: {1}", strArr[0], strArr[1]);
+            System.Console.WriteLine("Output: {0}", si.FindIntersection(strArr));
+
+            System.Console.WriteLine();
+        }
     }
 }

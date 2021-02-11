@@ -47,6 +47,7 @@
     <Compile Include="Easy Challenges\MathSequence.cs" />
     <Compile Include="Easy Challenges\NumberCheck.cs" />
     <Compile Include="Easy Challenges\PalindromeChecker.cs" />
+    <Compile Include="Easy Challenges\StringIntersection.cs" />
     <Compile Include="Easy Challenges\TimeConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
