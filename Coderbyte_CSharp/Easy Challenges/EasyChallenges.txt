@@ -11,6 +11,7 @@ Letter Changes
 Longest Word
 Moving Median
 Other Products
+Palindrome			02/10/2021
 Power of 2
 Product Digits
 Question Marks
