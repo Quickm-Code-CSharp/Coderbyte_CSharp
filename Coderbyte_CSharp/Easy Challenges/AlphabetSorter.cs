@@ -18,7 +18,7 @@ namespace Coderbyte_CSharp.Easy_Challenges
             String result = String.Empty;
 
             char[] charArray = str.ToCharArray();
-            Array.Reverse(charArray);
+            Array.Sort(charArray);
 
             result = new string(charArray);
 

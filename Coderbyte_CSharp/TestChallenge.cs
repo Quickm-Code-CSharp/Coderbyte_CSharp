@@ -48,8 +48,8 @@ namespace Coderbyte_CSharp
             AlphabetSorter alpha = new AlphabetSorter();
 
             System.Console.WriteLine("Alphabet Soup:");
-            System.Console.WriteLine("Input: {0}", text);
-            System.Console.WriteLine("Output:  {0}", alpha.AlphabetSoup(text));
+            System.Console.WriteLine("Input:  {0}", text);
+            System.Console.WriteLine("Output: {0}", alpha.AlphabetSoup(text));
             System.Console.WriteLine();
         }
 
@@ -62,6 +62,23 @@ namespace Coderbyte_CSharp
             System.Console.WriteLine("ArithGeo Sequence:");
             printArray(arr, length);
             System.Console.WriteLine("Output: {0}", sequence.ArithGeo(arr, length));
+            System.Console.WriteLine();
+
+        }
+
+        public void Test_Palindrome()
+        {
+            string text = "jgklsgtiowegtankvlae";
+            PalindromeChecker checker = new PalindromeChecker();
+
+            System.Console.WriteLine("Palindrome:");
+            System.Console.WriteLine("Input: {0}", text);
+            System.Console.WriteLine("Output:  {0}", checker.Palindrome(text));
+
+            text = "helleh";
+            System.Console.WriteLine("Input: {0}", text);
+            System.Console.WriteLine("Output:  {0}", checker.Palindrome(text));
+
             System.Console.WriteLine();
 
         }

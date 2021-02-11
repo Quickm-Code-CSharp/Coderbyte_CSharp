@@ -1,7 +1,7 @@
 ﻿The completed code challenges are:
 
 Alphabet Soup		02/10/2021
-ArithGeo
+ArithGeo			02/10/2021
 Check Numbers
 Find Intersection
 First Factorial

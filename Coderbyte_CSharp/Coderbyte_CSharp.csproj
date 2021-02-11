@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Easy Challenges\AlphabetSorter.cs" />
     <Compile Include="Easy Challenges\MathSequence.cs" />
+    <Compile Include="Easy Challenges\PalindromeChecker.cs" />
     <Compile Include="Easy Challenges\TimeConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

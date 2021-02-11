@@ -18,6 +18,7 @@ namespace Coderbyte_CSharp
             tc.Test_TimeConvert();
             tc.Test_AlphabetSoup();
             tc.Test_ArithGeoSequence();
+            tc.Test_Palindrome();
         }
     }
 }
