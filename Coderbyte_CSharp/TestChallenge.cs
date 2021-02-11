@@ -74,6 +74,8 @@ namespace Coderbyte_CSharp
             System.Console.WriteLine("Palindrome:");
             System.Console.WriteLine("Input: {0}", text);
             System.Console.WriteLine("Output:  {0}", checker.Palindrome(text));
+            System.Console.WriteLine();
+
 
             text = "helleh";
             System.Console.WriteLine("Input: {0}", text);
@@ -81,6 +83,34 @@ namespace Coderbyte_CSharp
 
             System.Console.WriteLine();
 
+        }
+
+        public void Test_NumberCheck()
+        {
+            int num1 = 34;
+            int num2 = 56;
+
+            NumberCheck checker = new NumberCheck();
+
+            System.Console.WriteLine("Number Check:");
+
+            System.Console.WriteLine("Input: {0}, {1}", num1, num2);
+            System.Console.WriteLine("Output: {0}", checker.CheckNumber(num1, num2));
+            System.Console.WriteLine();
+
+            num1 = 79;
+            num2 = 13;
+            System.Console.WriteLine("Input: {0}, {1}", num1, num2);
+            System.Console.WriteLine("Output: {0}", checker.CheckNumber(num1, num2));
+            System.Console.WriteLine();
+
+            num1 = num2;
+            System.Console.WriteLine("Input: {0}, {1}", num1, num2);
+            System.Console.WriteLine("Output: {0}", checker.CheckNumber(num1, num2));
+
+
+
+            System.Console.WriteLine();
         }
 
     }

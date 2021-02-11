@@ -2,7 +2,7 @@
 
 Alphabet Soup		02/10/2021
 ArithGeo			02/10/2021
-Check Numbers
+Check Numbers		02/10/2021
 Find Intersection
 First Factorial
 First Reverse
