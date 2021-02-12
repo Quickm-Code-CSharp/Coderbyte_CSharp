@@ -49,6 +49,7 @@
     <Compile Include="Easy Challenges\PalindromeChecker.cs" />
     <Compile Include="Easy Challenges\StringIntersection.cs" />
     <Compile Include="Easy Challenges\TimeConverter.cs" />
+    <Compile Include="Medium Challenges\ConsecutiveNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestChallenge.cs" />
@@ -56,11 +57,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Medium Challenges\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Easy Challenges\EasyChallenges.txt" />
+    <Content Include="Medium Challenges\MediumChallenges.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

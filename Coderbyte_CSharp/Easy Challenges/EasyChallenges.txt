@@ -1,5 +1,7 @@
-﻿The completed code challenges are:
+﻿The list of challenges were originally coded in C++.  Challenge solution with 
+dates have been coded in C# and exist in this solution.
 
+Challenge:			C# Date:
 Alphabet Soup		02/10/2021
 ArithGeo			02/10/2021
 Check Numbers		02/10/2021

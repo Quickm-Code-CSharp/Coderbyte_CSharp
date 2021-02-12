@@ -15,12 +15,16 @@ namespace Coderbyte_CSharp
 
             TestChallenge tc = new TestChallenge();
 
+            // Easy
             tc.Test_TimeConvert();
             tc.Test_AlphabetSoup();
             tc.Test_ArithGeoSequence();
             tc.Test_Palindrome();
             tc.Test_NumberCheck();
             tc.Test_FindIntersection();
+
+            // Medium
+            tc.test_Consecutive();
         }
     }
 }

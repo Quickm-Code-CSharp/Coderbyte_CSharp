@@ -5,11 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Coderbyte_CSharp.Easy_Challenges;
+using Coderbyte_CSharp.Medium_Challenges;
 
 namespace Coderbyte_CSharp
 {
     class TestChallenge
     {
+        #region Support Methods
         protected  void  printArray(int[] arr, int length)
         {
 
@@ -30,6 +32,9 @@ namespace Coderbyte_CSharp
             System.Console.Write("{0}]", sb.ToString());
             System.Console.WriteLine();
         }
+        #endregion
+
+        #region Easy Challenges
         public void Test_TimeConvert()
         {
             int totalMinutes = 73;
@@ -128,5 +133,23 @@ namespace Coderbyte_CSharp
 
             System.Console.WriteLine();
         }
+        #endregion
+
+        #region Medium Challenges
+        public void test_Consecutive()
+        {
+            ConsecutiveNumbers numbers = new ConsecutiveNumbers();
+
+            int[] arr = new int[] {4, 6, 8};
+
+            System.Console.WriteLine("ArithGeo Sequence:");
+
+            printArray(arr, arr.Length);
+            System.Console.WriteLine("Output: {0}", numbers.Consecutive(arr, arr.Length));
+            System.Console.WriteLine();
+
+        }
+        #endregion
+
     }
 }
