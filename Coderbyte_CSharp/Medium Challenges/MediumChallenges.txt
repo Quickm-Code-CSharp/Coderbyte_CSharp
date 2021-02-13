@@ -5,7 +5,7 @@ Challenge:					C# Date:		Class:
 Consecutive					02/12/2021		ConsecutiveNumbers
 K Unique Chars				02/12/2021		StringUniqueSubstring
 Number Encoding				02/12/2021		NumberEncoder
-Prime Mover 
+Prime Mover					02/12/2021		PrimeNumber
 Run Length 
 String Reduction 
 Symmetric Tree 

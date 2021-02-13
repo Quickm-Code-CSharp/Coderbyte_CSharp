@@ -150,7 +150,7 @@ namespace Coderbyte_CSharp
 
         }
 
-        public void test_KUniqueCharacters()
+        public void Test_KUniqueCharacters()
         {
             StringUniqueSubstring uniqueFinder = new StringUniqueSubstring();
 
@@ -165,7 +165,7 @@ namespace Coderbyte_CSharp
             Console.WriteLine();
         }
 
-        public void test_NumberEncoding()
+        public void Test_NumberEncoding()
         {
             NumberEncoder encoder = new NumberEncoder();
 
@@ -181,6 +181,23 @@ namespace Coderbyte_CSharp
             str = "bg&h q@l";
             Console.WriteLine("Input:  {0}", str);
             Console.WriteLine("Output: {0}", encoder.NumberEncoding(str));
+            Console.WriteLine();
+        }
+
+        public void Test_PrimeMover()
+        {
+            PrimeNumber prime = new PrimeNumber();
+            int num = 3;
+
+            Console.WriteLine("Prime Mover:");
+
+            Console.WriteLine("Input:  {0}", num);
+            Console.WriteLine("Output: {0}", prime.PrimeMover(num));
+            Console.WriteLine();
+
+            num = 100;
+            Console.WriteLine("Input:  {0}", num);
+            Console.WriteLine("Output: {0}", prime.PrimeMover(num));
             Console.WriteLine();
         }
         #endregion
