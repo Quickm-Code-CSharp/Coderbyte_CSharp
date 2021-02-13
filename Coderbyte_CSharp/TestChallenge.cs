@@ -149,6 +149,20 @@ namespace Coderbyte_CSharp
             System.Console.WriteLine();
 
         }
+
+        public void test_KUniqueCharacters()
+        {
+            StringUniqueSubstring uniqueFinder = new StringUniqueSubstring();
+
+            string str = "2aabbacbaa";
+            StringUniqueSubstring unique = new StringUniqueSubstring();
+
+            System.Console.WriteLine("K Unique Characters:");
+
+            System.Console.WriteLine("Input:  {0}", str);
+            System.Console.WriteLine("Output: {0}", unique.KUniqueCharacters(str));
+            System.Console.WriteLine();
+        }
         #endregion
 
     }

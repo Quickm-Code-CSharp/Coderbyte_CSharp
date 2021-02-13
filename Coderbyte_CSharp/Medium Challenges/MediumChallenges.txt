@@ -1,9 +1,9 @@
 ﻿The list of challenges were originally coded in C++.  Challenge solution with 
 dates have been coded in C# and exist in this solution.
 
-Challenge:					C# Date:
-Consecutive 
-K Unique Chars 
+Challenge:					C# Date:		Class:
+Consecutive					02/12/2021		ConsecutiveNumbers
+K Unique Chars				02/12/2021		StringUniqueSubstring
 Number Encoding 
 Prime Mover 
 Run Length 

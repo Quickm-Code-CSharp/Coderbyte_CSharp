@@ -25,6 +25,7 @@ namespace Coderbyte_CSharp
 
             // Medium
             tc.test_Consecutive();
+            tc.test_KUniqueCharacters();
         }
     }
 }
