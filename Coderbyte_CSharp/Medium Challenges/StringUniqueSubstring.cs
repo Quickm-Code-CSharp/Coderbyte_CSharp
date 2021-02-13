@@ -33,7 +33,7 @@ namespace Coderbyte_CSharp.Medium_Challenges
             {
                 int uniqueCount = 0;
 
-                substrings = createSubstrings(localStr, substrLength);
+                substrings = CreateSubstrings(localStr, substrLength);
                 if (substrings.Count == 0)
                 {
                     continue;
@@ -41,7 +41,7 @@ namespace Coderbyte_CSharp.Medium_Challenges
 
                 foreach(string s in substrings)
                 {
-                    uniqueCount = computeUniqueChars(s);
+                    uniqueCount = ComputeUniqueChars(s);
                     if (uniqueCount == uniqueLength && s.Length > result.Length)
                     {
                         result = s;
@@ -55,7 +55,7 @@ namespace Coderbyte_CSharp.Medium_Challenges
             return result;
         }
 
-        protected int computeUniqueChars(string str)
+        protected int ComputeUniqueChars(string str)
         {
             int count = 1;
             Dictionary<char, int> charCount = new Dictionary<char, int>(); ;
@@ -78,7 +78,7 @@ namespace Coderbyte_CSharp.Medium_Challenges
             return count;
         }
 
-        List<string> createSubstrings(string str, int length)
+        List<string> CreateSubstrings(string str, int length)
         {
             List<string>    substrings  = new List<string>();
             int             strLength   = str.Length;

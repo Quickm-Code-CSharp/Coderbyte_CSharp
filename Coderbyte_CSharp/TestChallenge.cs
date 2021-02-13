@@ -17,7 +17,7 @@ namespace Coderbyte_CSharp
 
             List<int> data = arr.ToList<int>();
 
-            System.Console.Write("Array:  [");
+            Console.Write("Array:  [");
             StringBuilder sb = new StringBuilder();
 
             foreach(int value in data)
@@ -29,8 +29,8 @@ namespace Coderbyte_CSharp
             // Remove last comma
             sb.Remove(sb.Length - 1, 1);
 
-            System.Console.Write("{0}]", sb.ToString());
-            System.Console.WriteLine();
+            Console.Write("{0}]", sb.ToString());
+            Console.WriteLine();
         }
         #endregion
 
@@ -40,10 +40,10 @@ namespace Coderbyte_CSharp
             int totalMinutes = 73;
             TimeConverter tc = new TimeConverter();
 
-            System.Console.WriteLine("TimeConvert:");
-            System.Console.WriteLine("Input: {0} minutes", totalMinutes);
-            System.Console.WriteLine("Output: {0}", tc.TimeConvert(totalMinutes));
-            System.Console.WriteLine();
+            Console.WriteLine("TimeConvert:");
+            Console.WriteLine("Input: {0} minutes", totalMinutes);
+            Console.WriteLine("Output: {0}", tc.TimeConvert(totalMinutes));
+            Console.WriteLine();
 
         }
 
@@ -52,10 +52,10 @@ namespace Coderbyte_CSharp
             string text = "jgklsgtiowegtankvlae";
             AlphabetSorter alpha = new AlphabetSorter();
 
-            System.Console.WriteLine("Alphabet Soup:");
-            System.Console.WriteLine("Input:  {0}", text);
-            System.Console.WriteLine("Output: {0}", alpha.AlphabetSoup(text));
-            System.Console.WriteLine();
+            Console.WriteLine("Alphabet Soup:");
+            Console.WriteLine("Input:  {0}", text);
+            Console.WriteLine("Output: {0}", alpha.AlphabetSoup(text));
+            Console.WriteLine();
         }
 
         public  void Test_ArithGeoSequence()
@@ -64,10 +64,10 @@ namespace Coderbyte_CSharp
             int             length  = 4;
             MathSequence sequence = new MathSequence(); ;
 
-            System.Console.WriteLine("ArithGeo Sequence:");
+            Console.WriteLine("ArithGeo Sequence:");
             printArray(arr, length);
-            System.Console.WriteLine("Output: {0}", sequence.ArithGeo(arr, length));
-            System.Console.WriteLine();
+            Console.WriteLine("Output: {0}", sequence.ArithGeo(arr, length));
+            Console.WriteLine();
 
         }
 
@@ -76,17 +76,17 @@ namespace Coderbyte_CSharp
             string text = "jgklsgtiowegtankvlae";
             PalindromeChecker checker = new PalindromeChecker();
 
-            System.Console.WriteLine("Palindrome:");
-            System.Console.WriteLine("Input: {0}", text);
-            System.Console.WriteLine("Output:  {0}", checker.Palindrome(text));
-            System.Console.WriteLine();
+            Console.WriteLine("Palindrome:");
+            Console.WriteLine("Input: {0}", text);
+            Console.WriteLine("Output:  {0}", checker.Palindrome(text));
+            Console.WriteLine();
 
 
             text = "helleh";
-            System.Console.WriteLine("Input: {0}", text);
-            System.Console.WriteLine("Output:  {0}", checker.Palindrome(text));
+            Console.WriteLine("Input: {0}", text);
+            Console.WriteLine("Output:  {0}", checker.Palindrome(text));
 
-            System.Console.WriteLine();
+            Console.WriteLine();
 
         }
 
@@ -97,23 +97,23 @@ namespace Coderbyte_CSharp
 
             NumberCheck checker = new NumberCheck();
 
-            System.Console.WriteLine("Number Check:");
+            Console.WriteLine("Number Check:");
 
-            System.Console.WriteLine("Input: {0}, {1}", num1, num2);
-            System.Console.WriteLine("Output: {0}", checker.CheckNumber(num1, num2));
-            System.Console.WriteLine();
+            Console.WriteLine("Input: {0}, {1}", num1, num2);
+            Console.WriteLine("Output: {0}", checker.CheckNumber(num1, num2));
+            Console.WriteLine();
 
             num1 = 79;
             num2 = 13;
-            System.Console.WriteLine("Input: {0}, {1}", num1, num2);
-            System.Console.WriteLine("Output: {0}", checker.CheckNumber(num1, num2));
-            System.Console.WriteLine();
+            Console.WriteLine("Input: {0}, {1}", num1, num2);
+            Console.WriteLine("Output: {0}", checker.CheckNumber(num1, num2));
+            Console.WriteLine();
 
             num1 = num2;
-            System.Console.WriteLine("Input: {0}, {1}", num1, num2);
-            System.Console.WriteLine("Output: {0}", checker.CheckNumber(num1, num2));
+            Console.WriteLine("Input: {0}, {1}", num1, num2);
+            Console.WriteLine("Output: {0}", checker.CheckNumber(num1, num2));
 
-            System.Console.WriteLine();
+            Console.WriteLine();
         }
 
         public void  Test_FindIntersection()
@@ -127,11 +127,11 @@ namespace Coderbyte_CSharp
 
             StringIntersection si = new StringIntersection();
 
-            System.Console.WriteLine("FindIntersection: ");
-            System.Console.WriteLine("Input: first: {0} , second: {1}", strArr[0], strArr[1]);
-            System.Console.WriteLine("Output: {0}", si.FindIntersection(strArr));
+            Console.WriteLine("FindIntersection: ");
+            Console.WriteLine("Input: first: {0} , second: {1}", strArr[0], strArr[1]);
+            Console.WriteLine("Output: {0}", si.FindIntersection(strArr));
 
-            System.Console.WriteLine();
+            Console.WriteLine();
         }
         #endregion
 
@@ -142,11 +142,11 @@ namespace Coderbyte_CSharp
 
             int[] arr = new int[] {4, 6, 8};
 
-            System.Console.WriteLine("ArithGeo Sequence:");
+            Console.WriteLine("ArithGeo Sequence:");
 
             printArray(arr, arr.Length);
-            System.Console.WriteLine("Output: {0}", numbers.Consecutive(arr, arr.Length));
-            System.Console.WriteLine();
+            Console.WriteLine("Output: {0}", numbers.Consecutive(arr, arr.Length));
+            Console.WriteLine();
 
         }
 
@@ -157,11 +157,31 @@ namespace Coderbyte_CSharp
             string str = "2aabbacbaa";
             StringUniqueSubstring unique = new StringUniqueSubstring();
 
-            System.Console.WriteLine("K Unique Characters:");
+            Console.WriteLine("K Unique Characters:");
 
-            System.Console.WriteLine("Input:  {0}", str);
-            System.Console.WriteLine("Output: {0}", unique.KUniqueCharacters(str));
-            System.Console.WriteLine();
+            Console.WriteLine("Input:  {0}", str);
+            Console.WriteLine("Output: {0}", unique.KUniqueCharacters(str));
+
+            Console.WriteLine();
+        }
+
+        public void test_NumberEncoding()
+        {
+            NumberEncoder encoder = new NumberEncoder();
+
+            string str = "af5c a#!";
+            StringUniqueSubstring unique = new StringUniqueSubstring();
+
+            Console.WriteLine("Number Encoding:");
+
+            Console.WriteLine("Input:  {0}", str);
+            Console.WriteLine("Output: {0}", encoder.NumberEncoding(str));
+            Console.WriteLine();
+
+            str = "bg&h q@l";
+            Console.WriteLine("Input:  {0}", str);
+            Console.WriteLine("Output: {0}", encoder.NumberEncoding(str));
+            Console.WriteLine();
         }
         #endregion
 

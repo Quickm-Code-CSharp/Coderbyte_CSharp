@@ -50,6 +50,7 @@
     <Compile Include="Easy Challenges\StringIntersection.cs" />
     <Compile Include="Easy Challenges\TimeConverter.cs" />
     <Compile Include="Medium Challenges\ConsecutiveNumbers.cs" />
+    <Compile Include="Medium Challenges\NumberEncoder.cs" />
     <Compile Include="Medium Challenges\StringUniqueSubstring.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

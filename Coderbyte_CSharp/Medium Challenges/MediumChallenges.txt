@@ -4,7 +4,7 @@ dates have been coded in C# and exist in this solution.
 Challenge:					C# Date:		Class:
 Consecutive					02/12/2021		ConsecutiveNumbers
 K Unique Chars				02/12/2021		StringUniqueSubstring
-Number Encoding 
+Number Encoding				02/12/2021		NumberEncoder
 Prime Mover 
 Run Length 
 String Reduction 
