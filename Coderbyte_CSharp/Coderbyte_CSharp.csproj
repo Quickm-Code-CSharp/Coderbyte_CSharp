@@ -52,6 +52,7 @@
     <Compile Include="Medium Challenges\ConsecutiveNumbers.cs" />
     <Compile Include="Medium Challenges\NumberEncoder.cs" />
     <Compile Include="Medium Challenges\PrimeNumber.cs" />
+    <Compile Include="Medium Challenges\StringMinimumWindow.cs" />
     <Compile Include="Medium Challenges\StringUniqueSubstring.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

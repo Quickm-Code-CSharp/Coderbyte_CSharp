@@ -28,6 +28,7 @@ namespace Coderbyte_CSharp
             tc.Test_KUniqueCharacters();
             tc.Test_NumberEncoding();
             tc.Test_PrimeMover();
+            tc.Test_MinWindowSubstring();
         }
     }
 }

@@ -200,6 +200,32 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Output: {0}", prime.PrimeMover(num));
             Console.WriteLine();
         }
+
+        public void Test_MinWindowSubstring()
+        {
+            StringMinimumWindow minFinder = new StringMinimumWindow();
+
+            string text = "ahffaksfajeeubsne";
+            string pattern = "jefaa";
+
+            string[] strArr = new string[2]{ text, pattern };
+
+            Console.WriteLine("Minimum Window Substring:");
+
+            Console.WriteLine("Input:  {0}  {1}", text, pattern);
+            Console.WriteLine("Output: {0}", minFinder.MinWindowSubstring(strArr, strArr.Length));
+            Console.WriteLine();
+
+            text = "aaffhkksemckelloe";
+            pattern = "fhea";
+            strArr[0] = text;
+            strArr[1] = pattern;
+
+            Console.WriteLine("Input:  {0}  {1}", text, pattern);
+            Console.WriteLine("Output: {0}", minFinder.MinWindowSubstring(strArr, strArr.Length));
+            Console.WriteLine();
+
+        }
         #endregion
 
     }
