@@ -245,6 +245,25 @@ namespace Coderbyte_CSharp
 
 
         }
+
+        public void Test_StringReduction()
+        {
+            StringReducer   reducer     = new StringReducer();
+            string          str         = "ac";
+
+            Console.WriteLine("Run Length:");
+
+            Console.WriteLine("Input:  {0}", str);
+            Console.WriteLine("Output: {0}", reducer.StringReduction(str));
+            Console.WriteLine();
+
+            str = "cab";
+            Console.WriteLine("Input:  {0}", str);
+            Console.WriteLine("Output: {0}", reducer.StringReduction(str));
+            Console.WriteLine();
+
+
+        }
         #endregion
 
     }

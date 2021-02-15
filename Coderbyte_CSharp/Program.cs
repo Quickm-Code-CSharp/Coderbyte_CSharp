@@ -30,6 +30,7 @@ namespace Coderbyte_CSharp
             tc.Test_PrimeMover();
             tc.Test_MinWindowSubstring();
             tc.Test_RunLength();
+            tc.Test_StringReduction();
         }
     }
 }

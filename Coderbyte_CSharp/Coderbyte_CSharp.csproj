@@ -54,6 +54,7 @@
     <Compile Include="Medium Challenges\PrimeNumber.cs" />
     <Compile Include="Medium Challenges\StringCompression.cs" />
     <Compile Include="Medium Challenges\StringMinimumWindow.cs" />
+    <Compile Include="Medium Challenges\StringReducer.cs" />
     <Compile Include="Medium Challenges\StringUniqueSubstring.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

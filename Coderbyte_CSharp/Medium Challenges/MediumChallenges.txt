@@ -7,7 +7,7 @@ K Unique Chars				02/12/2021		StringUniqueSubstring
 Number Encoding				02/12/2021		NumberEncoder
 Prime Mover					02/12/2021		PrimeNumber
 Run Length					02/15/2021		StringCompression
-String Reduction 
+String Reduction			02/15/2021		StringReducer
 Symmetric Tree 
 Tree Constructor 
 Minimum Window Substring	02/12/2021		StringMinimumWindow
