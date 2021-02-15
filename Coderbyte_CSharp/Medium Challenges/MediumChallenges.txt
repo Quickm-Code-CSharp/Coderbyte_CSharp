@@ -6,7 +6,7 @@ Consecutive					02/12/2021		ConsecutiveNumbers
 K Unique Chars				02/12/2021		StringUniqueSubstring
 Number Encoding				02/12/2021		NumberEncoder
 Prime Mover					02/12/2021		PrimeNumber
-Run Length 
+Run Length					02/15/2021		StringCompression
 String Reduction 
 Symmetric Tree 
 Tree Constructor 

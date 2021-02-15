@@ -226,6 +226,25 @@ namespace Coderbyte_CSharp
             Console.WriteLine();
 
         }
+
+        public void Test_RunLength()
+        {
+            StringCompression   compress    = new StringCompression();
+            string              str         = "wwwggopp";
+
+            Console.WriteLine("Run Length:");
+
+            Console.WriteLine("Input:  {0}", str);
+            Console.WriteLine("Output: {0}", compress.RunLength(str));
+            Console.WriteLine();
+
+            str = "wwwbbbw";
+            Console.WriteLine("Input:  {0}", str);
+            Console.WriteLine("Output: {0}", compress.RunLength(str));
+            Console.WriteLine();
+
+
+        }
         #endregion
 
     }
