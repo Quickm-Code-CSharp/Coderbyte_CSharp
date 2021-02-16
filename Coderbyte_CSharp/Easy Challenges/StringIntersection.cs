@@ -63,8 +63,8 @@ namespace Coderbyte_CSharp.Easy_Challenges
 
         protected int[] TokenizeInt(string str, char delim)
         {
-            string[] strValues = str.Split(delim);
-           int[] nums = new int[strValues.Length];
+            string[]    strValues   = str.Split(delim);
+            int[]       nums        = new int[strValues.Length];
 
             for(int index = 0; index < strValues.Length; index++)
             {

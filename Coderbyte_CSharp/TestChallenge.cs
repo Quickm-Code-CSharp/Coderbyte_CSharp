@@ -20,7 +20,7 @@ namespace Coderbyte_CSharp
             Console.Write("Array:  [");
             StringBuilder sb = new StringBuilder();
 
-            foreach(int value in data)
+            foreach(var value in data)
             {
                 sb.Append(value);
                 sb.Append(",");
@@ -32,6 +32,28 @@ namespace Coderbyte_CSharp
             Console.Write("{0}]", sb.ToString());
             Console.WriteLine();
         }
+
+        protected void printArray(string[] arr, int length)
+        {
+
+            List<string> data = arr.ToList<string>();
+
+            Console.Write("Array:  [");
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var value in data)
+            {
+                sb.Append(value);
+                sb.Append(",");
+            }
+
+            // Remove last comma
+            sb.Remove(sb.Length - 1, 1);
+
+            Console.Write("{0}]", sb.ToString());
+            Console.WriteLine();
+        }
+
         #endregion
 
         #region Easy Challenges
@@ -263,6 +285,27 @@ namespace Coderbyte_CSharp
             Console.WriteLine();
 
 
+        }
+
+        public void Test_TreeConstructor()
+        {
+            TreeGraphs tree = new TreeGraphs();
+            string[] strArr = new string[] { "(1,2)", "(2,4)", "(7,2)" };
+
+            Console.WriteLine("Tree Constructor:");
+            printArray(strArr, strArr.Length);
+            Console.WriteLine("Output: {0}", tree.TreeConstructor(strArr, strArr.Length));
+            Console.WriteLine();
+
+            string[] strArr2 = new string[] { "(1,2)", "(9,2)", "(2,4)", "(7,2)" };
+            printArray(strArr2, strArr2.Length);
+            Console.WriteLine("Output: {0}", tree.TreeConstructor(strArr2, strArr2.Length));
+            Console.WriteLine();
+
+            string[] strArr3 = new string[] { "(1,2)", "(2,4)", "(5,7)", "(7,2)", "(9,5)" };
+            printArray(strArr3, strArr3.Length);
+            Console.WriteLine("Output: {0}", tree.TreeConstructor(strArr3, strArr3.Length));
+            Console.WriteLine();
         }
         #endregion
 
