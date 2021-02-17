@@ -3,3 +3,4 @@ dates have been coded in C# and exist in this solution.
 
 Challenge:                  C# Date:        Class:
 Kaprekars Constant          02/16/2021      Kaprekar
+Matrix Determinant			02/17/2021		Determinant
