@@ -16,22 +16,22 @@ namespace Coderbyte_CSharp
             TestChallenge tc = new TestChallenge();
 
             // Easy
-            //tc.Test_TimeConvert();
-            //tc.Test_AlphabetSoup();
-            //tc.Test_ArithGeoSequence();
-            //tc.Test_Palindrome();
-            //tc.Test_NumberCheck();
-            //tc.Test_FindIntersection();
+            tc.Test_TimeConvert();
+            tc.Test_AlphabetSoup();
+            tc.Test_ArithGeoSequence();
+            tc.Test_Palindrome();
+            tc.Test_NumberCheck();
+            tc.Test_FindIntersection();
 
             // Medium
-            //tc.Test_Consecutive();
-            //tc.Test_KUniqueCharacters();
-            //tc.Test_NumberEncoding();
-            //tc.Test_PrimeMover();
-            //tc.Test_MinWindowSubstring();
-            //tc.Test_RunLength();
-            //tc.Test_StringReduction();
-            //tc.Test_TreeConstructor();
+            tc.Test_Consecutive();
+            tc.Test_KUniqueCharacters();
+            tc.Test_NumberEncoding();
+            tc.Test_PrimeMover();
+            tc.Test_MinWindowSubstring();
+            tc.Test_RunLength();
+            tc.Test_StringReduction();
+            tc.Test_TreeConstructor();
 
             // Hard
             tc.Test_KaprekarsConstant();
