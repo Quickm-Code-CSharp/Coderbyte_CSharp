@@ -1,13 +1,13 @@
 ﻿The list of challenges were originally coded in C++.  Challenge solution with 
 dates have been coded in C# and exist in this solution.
 
-Challenge:					C# Date:		Class:
-Consecutive					02/12/2021		ConsecutiveNumbers
-K Unique Chars				02/12/2021		StringUniqueSubstring
-Number Encoding				02/12/2021		NumberEncoder
-Prime Mover					02/12/2021		PrimeNumber
-Run Length					02/15/2021		StringCompression
-String Reduction			02/15/2021		StringReducer
+Challenge:                  C# Date:        Class:
+Consecutive                 02/12/2021      ConsecutiveNumbers
+K Unique Chars              02/12/2021      StringUniqueSubstring
+Number Encoding             02/12/2021      NumberEncoder
+Prime Mover                 02/12/2021      PrimeNumber
+Run Length                  02/15/2021      StringCompression
+String Reduction            02/15/2021      StringReducer
 Symmetric Tree 
-Tree Constructor			02/15/2021		TreeGraphs
-Minimum Window Substring	02/12/2021		StringMinimumWindow
+Tree Constructor            02/15/2021      TreeGraphs
+Minimum Window Substring    02/12/2021      StringMinimumWindow

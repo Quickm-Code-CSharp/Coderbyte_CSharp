@@ -1,11 +1,11 @@
 ﻿The list of challenges were originally coded in C++.  Challenge solution with 
 dates have been coded in C# and exist in this solution.
 
-Challenge:			C# Date:		Class
-Alphabet Soup		02/10/2021		AlphabetSorter
-ArithGeo			02/10/2021		MathSequence
-Check Numbers		02/10/2021		NumberCheck
-Find Intersection	02/11/2021		StringIntersection
+Challenge:          C# Date:        Class
+Alphabet Soup       02/10/2021      AlphabetSorter
+ArithGeo            02/10/2021      MathSequence
+Check Numbers       02/10/2021      NumberCheck
+Find Intersection   02/11/2021		StringIntersection
 First Factorial
 First Reverse
 Letter Capitalize
@@ -13,7 +13,7 @@ Letter Changes
 Longest Word
 Moving Median
 Other Products
-Palindrome			02/10/2021		PalindromeChecker
+Palindrome          02/10/2021      PalindromeChecker
 Power of 2
 Product Digits
 Question Marks
@@ -21,5 +21,5 @@ Remove Brackets
 Simple Adding
 Simple Symbols
 String Periods
-Time Convert		2/10/2021		TimeConverter
+Time Convert        2/10/2021	    TimeConverter
 Username Validation
