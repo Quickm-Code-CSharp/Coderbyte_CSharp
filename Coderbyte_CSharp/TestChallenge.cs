@@ -13,7 +13,7 @@ namespace Coderbyte_CSharp
     class TestChallenge
     {
         #region Support Methods
-        protected  void  printArray(int[] arr, int length)
+        protected  void  PrintArray(int[] arr, int length)
         {
 
             List<int> data = arr.ToList<int>();
@@ -34,7 +34,7 @@ namespace Coderbyte_CSharp
             Console.WriteLine();
         }
 
-        protected void printArray(string[] arr, int length)
+        protected void PrintArray(string[] arr, int length)
         {
 
             List<string> data = arr.ToList<string>();
@@ -88,7 +88,7 @@ namespace Coderbyte_CSharp
             MathSequence sequence = new MathSequence(); ;
 
             Console.WriteLine("ArithGeo Sequence:");
-            printArray(arr, length);
+            PrintArray(arr, length);
             Console.WriteLine("Output: {0}", sequence.ArithGeo(arr, length));
             Console.WriteLine();
 
@@ -167,7 +167,7 @@ namespace Coderbyte_CSharp
 
             Console.WriteLine("ArithGeo Sequence:");
 
-            printArray(arr, arr.Length);
+            PrintArray(arr, arr.Length);
             Console.WriteLine("Output: {0}", numbers.Consecutive(arr, arr.Length));
             Console.WriteLine();
 
@@ -294,17 +294,17 @@ namespace Coderbyte_CSharp
             string[] strArr = new string[] { "(1,2)", "(2,4)", "(7,2)" };
 
             Console.WriteLine("Tree Constructor:");
-            printArray(strArr, strArr.Length);
+            PrintArray(strArr, strArr.Length);
             Console.WriteLine("Output: {0}", tree.TreeConstructor(strArr, strArr.Length));
             Console.WriteLine();
 
             string[] strArr2 = new string[] { "(1,2)", "(9,2)", "(2,4)", "(7,2)" };
-            printArray(strArr2, strArr2.Length);
+            PrintArray(strArr2, strArr2.Length);
             Console.WriteLine("Output: {0}", tree.TreeConstructor(strArr2, strArr2.Length));
             Console.WriteLine();
 
             string[] strArr3 = new string[] { "(1,2)", "(2,4)", "(5,7)", "(7,2)", "(9,5)" };
-            printArray(strArr3, strArr3.Length);
+            PrintArray(strArr3, strArr3.Length);
             Console.WriteLine("Output: {0}", tree.TreeConstructor(strArr3, strArr3.Length));
             Console.WriteLine();
         }
@@ -319,6 +319,19 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Kaprekars Constant:");
             Console.WriteLine("Input: {0} ", value);
             Console.WriteLine("Output: {0}", k.KaprekarsConstant(value));
+            Console.WriteLine();
+        }
+
+        public void Test_Determinant()
+        {
+            Determinant d       = new Determinant();
+
+            string[]    array   = new string[] { "1", "4", "3", "<>", "2", "3", "0", "<>", "5", "-3", "4" };
+            int         det;
+
+            det = d.MatrixDeterminant(array, array.Length);
+            PrintArray(array, array.Length);
+            Console.WriteLine("Output: {0}", d.MatrixDeterminant(array, array.Length));
             Console.WriteLine();
 
         }

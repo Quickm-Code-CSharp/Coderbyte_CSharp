@@ -31,10 +31,11 @@ namespace Coderbyte_CSharp
             tc.Test_MinWindowSubstring();
             tc.Test_RunLength();
             tc.Test_StringReduction();
-            tc.Test_TreeConstructor();
+            //tc.Test_TreeConstructor();
 
             // Hard
             tc.Test_KaprekarsConstant();
+            tc.Test_Determinant();
         }
     }
 }
