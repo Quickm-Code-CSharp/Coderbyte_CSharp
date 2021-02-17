@@ -1,0 +1,5 @@
+﻿The list of challenges were originally coded in C++.  Challenge solution with 
+dates have been coded in C# and exist in this solution.
+
+Challenge:					C# Date:		Class:
+Kaprekars Constant			02/16/2021		Kaprekar

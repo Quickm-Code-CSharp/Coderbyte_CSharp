@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Coderbyte_CSharp.Easy_Challenges;
 using Coderbyte_CSharp.Medium_Challenges;
+using Coderbyte_CSharp.Hard_Challenges;
 
 namespace Coderbyte_CSharp
 {
@@ -158,7 +159,7 @@ namespace Coderbyte_CSharp
         #endregion
 
         #region Medium Challenges
-        public void test_Consecutive()
+        public void Test_Consecutive()
         {
             ConsecutiveNumbers numbers = new ConsecutiveNumbers();
 
@@ -309,5 +310,18 @@ namespace Coderbyte_CSharp
         }
         #endregion
 
+        #region Hard Challenges
+        public void Test_KaprekarsConstant()
+        {
+            Kaprekar    k               = new Kaprekar();
+            int         value           = 3524;
+
+            Console.WriteLine("Kaprekars Constant:");
+            Console.WriteLine("Input: {0} ", value);
+            Console.WriteLine("Output: {0}", k.KaprekarsConstant(value));
+            Console.WriteLine();
+
+        }
+        #endregion
     }
 }

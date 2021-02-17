@@ -43,20 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Easy Challenges\AlphabetSorter.cs" />
-    <Compile Include="Easy Challenges\MathSequence.cs" />
-    <Compile Include="Easy Challenges\NumberCheck.cs" />
-    <Compile Include="Easy Challenges\PalindromeChecker.cs" />
-    <Compile Include="Easy Challenges\StringIntersection.cs" />
-    <Compile Include="Easy Challenges\TimeConverter.cs" />
-    <Compile Include="Medium Challenges\ConsecutiveNumbers.cs" />
-    <Compile Include="Medium Challenges\NumberEncoder.cs" />
-    <Compile Include="Medium Challenges\PrimeNumber.cs" />
-    <Compile Include="Medium Challenges\StringCompression.cs" />
-    <Compile Include="Medium Challenges\StringMinimumWindow.cs" />
-    <Compile Include="Medium Challenges\StringReducer.cs" />
-    <Compile Include="Medium Challenges\StringUniqueSubstring.cs" />
-    <Compile Include="Medium Challenges\TreeGraphs.cs" />
+    <Compile Include="1 Easy Challenges\AlphabetSorter.cs" />
+    <Compile Include="1 Easy Challenges\MathSequence.cs" />
+    <Compile Include="1 Easy Challenges\NumberCheck.cs" />
+    <Compile Include="1 Easy Challenges\PalindromeChecker.cs" />
+    <Compile Include="1 Easy Challenges\StringIntersection.cs" />
+    <Compile Include="1 Easy Challenges\TimeConverter.cs" />
+    <Compile Include="2 Medium Challenges\ConsecutiveNumbers.cs" />
+    <Compile Include="2 Medium Challenges\NumberEncoder.cs" />
+    <Compile Include="2 Medium Challenges\PrimeNumber.cs" />
+    <Compile Include="2 Medium Challenges\StringCompression.cs" />
+    <Compile Include="2 Medium Challenges\StringMinimumWindow.cs" />
+    <Compile Include="2 Medium Challenges\StringReducer.cs" />
+    <Compile Include="2 Medium Challenges\StringUniqueSubstring.cs" />
+    <Compile Include="2 Medium Challenges\TreeGraphs.cs" />
+    <Compile Include="3 Hard Challenges\Kaprekar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestChallenge.cs" />
@@ -66,8 +67,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Easy Challenges\EasyChallenges.txt" />
-    <Content Include="Medium Challenges\MediumChallenges.txt" />
+    <Content Include="1 Easy Challenges\EasyChallenges.txt" />
+    <Content Include="2 Medium Challenges\MediumChallenges.txt" />
+    <Content Include="3 Hard Challenges\HardChallenges.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
