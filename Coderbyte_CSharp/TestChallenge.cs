@@ -139,7 +139,7 @@ namespace Coderbyte_CSharp
             Console.WriteLine();
         }
 
-        public void  Test_FindIntersection()
+        public void Test_FindIntersection()
         {
             string[] strArr =  new string[2];
             string one = "3, 4, 7, 11, 21";
@@ -154,6 +154,19 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Input: first: {0} , second: {1}", strArr[0], strArr[1]);
             Console.WriteLine("Output: {0}", si.FindIntersection(strArr));
 
+            Console.WriteLine();
+        }
+
+        public void Test_FirstFactorial()
+        {
+            int num = 18;
+
+            Factorial compute = new Factorial();
+
+            Console.WriteLine("First Factorial:");
+
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output: {0}", compute.FirstFactorial(num));
             Console.WriteLine();
         }
         #endregion
@@ -329,6 +342,7 @@ namespace Coderbyte_CSharp
             string[]    array   = new string[] { "1", "4", "3", "<>", "2", "3", "0", "<>", "5", "-3", "4" };
             int         det;
 
+            Console.WriteLine("Matrix Determinant:");
             det = d.MatrixDeterminant(array, array.Length);
             PrintArray(array, array.Length);
             Console.WriteLine("Output: {0}", d.MatrixDeterminant(array, array.Length));

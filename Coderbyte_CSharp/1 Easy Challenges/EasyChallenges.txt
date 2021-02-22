@@ -6,7 +6,7 @@ Alphabet Soup       02/10/2021      AlphabetSorter
 ArithGeo            02/10/2021      MathSequence
 Check Numbers       02/10/2021      NumberCheck
 Find Intersection   02/11/2021      StringIntersection
-First Factorial
+First Factorial		02/21/2021		Factorial
 First Reverse
 Letter Capitalize
 Letter Changes

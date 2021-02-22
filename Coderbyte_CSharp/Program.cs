@@ -22,6 +22,7 @@ namespace Coderbyte_CSharp
             tc.Test_Palindrome();
             tc.Test_NumberCheck();
             tc.Test_FindIntersection();
+            tc.Test_FirstFactorial();
 
             // Medium
             tc.Test_Consecutive();
