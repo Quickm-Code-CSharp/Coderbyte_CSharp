@@ -16,6 +16,7 @@ namespace Coderbyte_CSharp
             TestChallenge tc = new TestChallenge();
 
             // Easy
+            Console.WriteLine("Easy Code Challenges:");
             tc.Test_TimeConvert();
             tc.Test_AlphabetSoup();
             tc.Test_ArithGeoSequence();
@@ -23,8 +24,10 @@ namespace Coderbyte_CSharp
             tc.Test_NumberCheck();
             tc.Test_FindIntersection();
             tc.Test_FirstFactorial();
+            tc.Test_FirstReverse();
 
             // Medium
+            Console.WriteLine("Medium Code Challenges:");
             tc.Test_Consecutive();
             tc.Test_KUniqueCharacters();
             tc.Test_NumberEncoding();
@@ -35,6 +38,7 @@ namespace Coderbyte_CSharp
             //tc.Test_TreeConstructor();
 
             // Hard
+            Console.WriteLine("Hard Code Challenges:");
             tc.Test_KaprekarsConstant();
             tc.Test_Determinant();
         }

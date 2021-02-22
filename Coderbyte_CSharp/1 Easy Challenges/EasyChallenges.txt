@@ -6,8 +6,8 @@ Alphabet Soup       02/10/2021      AlphabetSorter
 ArithGeo            02/10/2021      MathSequence
 Check Numbers       02/10/2021      NumberCheck
 Find Intersection   02/11/2021      StringIntersection
-First Factorial		02/21/2021		Factorial
-First Reverse
+First Factorial		02/22/2021		Factorial
+First Reverse		02/22/2021		StringReverse
 Letter Capitalize
 Letter Changes
 Longest Word

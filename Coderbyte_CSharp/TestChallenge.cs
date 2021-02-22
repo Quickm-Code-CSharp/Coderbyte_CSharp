@@ -169,6 +169,18 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Output: {0}", compute.FirstFactorial(num));
             Console.WriteLine();
         }
+
+        public void Test_FirstReverse()
+        {
+            StringReverse reverser = new StringReverse();
+
+            string str = "Hello World and Coders";
+
+            Console.WriteLine("First Reverse:");
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", reverser.FirstReverse(str));
+            Console.WriteLine();
+        }
         #endregion
 
         #region Medium Challenges
