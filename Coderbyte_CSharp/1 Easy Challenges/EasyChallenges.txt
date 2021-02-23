@@ -12,7 +12,7 @@ Letter Capitalize	02/22/2021		ChangeLetter
 Letter Changes		02/22/2021		ChangeLetter
 Longest Word
 Moving Median
-Other Products
+Other Products		02/22/2021		MathProduct
 Palindrome          02/10/2021      PalindromeChecker
 Power of 2			02/22/2021		ExponentTwo
 Product Digits		02/22/2021		MathProduct

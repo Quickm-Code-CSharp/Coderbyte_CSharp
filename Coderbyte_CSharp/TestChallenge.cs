@@ -256,6 +256,18 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Input: {0}", num);
             Console.WriteLine("Output:  {0}", prod.ProductDigits(num));
             Console.WriteLine();
+        }
+
+        public void Test_OtherProducts()
+        {
+            MathProduct prod = new MathProduct();
+            int[] arr = new int[] {1, 2, 3, 4, 5 };
+            
+
+            Console.WriteLine("Other Products:");
+            PrintArray(arr, arr.Length);
+            Console.WriteLine("Output: {0}", prod.OtherProducts(arr, arr.Length));
+            Console.WriteLine();
 
         }
 
