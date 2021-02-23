@@ -181,6 +181,24 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Output:  {0}", reverser.FirstReverse(str));
             Console.WriteLine();
         }
+
+        public void Test_LetterChanges()
+        {
+            ChangeLetter changer = new ChangeLetter();
+
+            string str = "applez";
+
+            Console.WriteLine("Letter Changes:");
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", changer.LetterChanges(str));
+            Console.WriteLine();
+
+            str = "coderbyte";
+
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", changer.LetterChanges(str));
+            Console.WriteLine();
+        }
         #endregion
 
         #region Medium Challenges

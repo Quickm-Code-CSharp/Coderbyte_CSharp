@@ -25,6 +25,7 @@ namespace Coderbyte_CSharp
             tc.Test_FindIntersection();
             tc.Test_FirstFactorial();
             tc.Test_FirstReverse();
+            tc.Test_LetterChanges();
 
             // Medium
             Console.WriteLine("Medium Code Challenges:");

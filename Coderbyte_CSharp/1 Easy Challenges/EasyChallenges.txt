@@ -9,7 +9,7 @@ Find Intersection   02/11/2021      StringIntersection
 First Factorial		02/22/2021		Factorial
 First Reverse		02/22/2021		StringReverse
 Letter Capitalize
-Letter Changes
+Letter Changes		02/22/2021		ChangeLetter
 Longest Word
 Moving Median
 Other Products
