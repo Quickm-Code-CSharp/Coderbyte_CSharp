@@ -14,7 +14,7 @@ Longest Word
 Moving Median
 Other Products
 Palindrome          02/10/2021      PalindromeChecker
-Power of 2
+Power of 2			02/22/2021		ExponentTwo
 Product Digits
 Question Marks
 Remove Brackets

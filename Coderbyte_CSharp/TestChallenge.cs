@@ -216,6 +216,25 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Output:  {0}", changer.LetterCapitalize(str));
             Console.WriteLine();
         }
+
+        public void Test_PowerOfTwo()
+        {
+            ExponentTwo power = new ExponentTwo();
+
+            int num = 16;
+
+            Console.WriteLine("Powers of Two:");
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output:  {0}", power.PowersofTwo(num));
+            Console.WriteLine();
+
+            num = 34;
+
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output:  {0}", power.PowersofTwo(num));
+            Console.WriteLine();
+        }
+
         #endregion
 
         #region Medium Challenges

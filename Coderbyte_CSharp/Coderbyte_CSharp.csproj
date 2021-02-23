@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="1 Easy Challenges\AlphabetSorter.cs" />
     <Compile Include="1 Easy Challenges\ChangeLetter.cs" />
+    <Compile Include="1 Easy Challenges\ExponentTwo.cs" />
     <Compile Include="1 Easy Challenges\Factorial.cs" />
     <Compile Include="1 Easy Challenges\MathSequence.cs" />
     <Compile Include="1 Easy Challenges\NumberCheck.cs" />
