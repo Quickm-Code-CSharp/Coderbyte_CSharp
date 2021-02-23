@@ -15,7 +15,7 @@ Moving Median
 Other Products
 Palindrome          02/10/2021      PalindromeChecker
 Power of 2			02/22/2021		ExponentTwo
-Product Digits
+Product Digits		02/22/2021		MathProduct
 Question Marks
 Remove Brackets
 Simple Adding

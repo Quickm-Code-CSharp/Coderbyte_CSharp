@@ -235,6 +235,30 @@ namespace Coderbyte_CSharp
             Console.WriteLine();
         }
 
+        public void Test_ProductDigits()
+        {
+            MathProduct prod = new MathProduct();
+            int num = 90;
+
+            Console.WriteLine("Product Digits:");
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output:  {0}", prod.ProductDigits(num));
+            Console.WriteLine();
+
+            num = 6;
+            Console.WriteLine("Product Digits:");
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output:  {0}", prod.ProductDigits(num));
+            Console.WriteLine();
+
+            num = 23;
+            Console.WriteLine("Product Digits:");
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output:  {0}", prod.ProductDigits(num));
+            Console.WriteLine();
+
+        }
+
         #endregion
 
         #region Medium Challenges

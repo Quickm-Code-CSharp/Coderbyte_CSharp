@@ -28,6 +28,7 @@ namespace Coderbyte_CSharp
             tc.Test_LetterChanges();
             tc.Test_LetterCapitalize();
             tc.Test_PowerOfTwo();
+            tc.Test_ProductDigits();
 
             // Medium
             Console.WriteLine("Medium Code Challenges:");
