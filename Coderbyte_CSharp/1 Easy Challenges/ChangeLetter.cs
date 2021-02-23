@@ -47,5 +47,32 @@ namespace Coderbyte_CSharp.Easy_Challenges
 
             return result;
         }
+
+        // Have the function LetterCapitalize(str) take the str parameter being passed 
+        // and capitalize the first letter of each word. Words will be separated by 
+        // only one space.
+        public string LetterCapitalize(string str)
+        {
+            string result = String.Empty;
+            char[] chars  = str.ToCharArray();
+
+
+            for ( int index = 0; index < chars.Length; index++)
+            {
+                if (index == 0 && Char.IsLower(str[index]))
+                {
+                    chars[index] = Char.ToUpper(chars[index]);
+                }
+
+                if (index > 0 && chars[index - 1] == ' ')
+                {
+                    chars[index] = Char.ToUpper(chars[index]);
+                }
+            }
+
+            result = new string(chars);
+
+            return result;
+        }
     }
 }

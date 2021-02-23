@@ -199,6 +199,23 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Output:  {0}", changer.LetterChanges(str));
             Console.WriteLine();
         }
+        public void Test_LetterCapitalize()
+        {
+            ChangeLetter changer = new ChangeLetter();
+
+            string str = "applez";
+
+            Console.WriteLine("Letter Capitalize:");
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", changer.LetterCapitalize(str));
+            Console.WriteLine();
+
+            str = "coder byte";
+
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", changer.LetterCapitalize(str));
+            Console.WriteLine();
+        }
         #endregion
 
         #region Medium Challenges
