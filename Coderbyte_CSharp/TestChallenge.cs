@@ -299,6 +299,19 @@ namespace Coderbyte_CSharp
             Console.WriteLine();
         }
 
+        public void Test_MovingMedian()
+        {
+            MedianMovement mover = new MedianMovement();
+
+            Console.WriteLine("Moving Median:");
+            int[] arr = new int[] {3, 1, 3, 5, 10, 6, 4, 3, 1};
+
+            PrintArray(arr, arr.Length);
+            Console.WriteLine("Output: {0}", mover.MovingMedian(arr, arr.Length));
+            Console.WriteLine();
+
+        }
+
 
         #endregion
 

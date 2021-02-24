@@ -10,8 +10,8 @@ First Factorial		02/22/2021		Factorial
 First Reverse		02/22/2021		StringReverse
 Letter Capitalize	02/22/2021		ChangeLetter
 Letter Changes		02/22/2021		ChangeLetter
-Longest Word
-Moving Median
+Longest Word        02/23/2021      StringWords
+Moving Median       02/23/2021      MedianMovement
 Other Products		02/22/2021		MathProduct
 Palindrome          02/10/2021      PalindromeChecker
 Power of 2			02/22/2021		ExponentTwo
