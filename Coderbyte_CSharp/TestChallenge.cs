@@ -271,6 +271,24 @@ namespace Coderbyte_CSharp
 
         }
 
+        public void Test_VowelSquare()
+        {
+            SquareVowels square = new SquareVowels();
+
+            Console.WriteLine("Letter Changes:");
+
+            string[] strArr = new string[] { "abcd", "eikr", "oufj" };
+            PrintArray(strArr, strArr.Length);
+            Console.WriteLine("Output: {0}", square.VowelSquare(strArr, strArr.Length));
+            Console.WriteLine();
+
+            string[] strArr2 = new string[] { "lbzk", "ncdf", "mxio", "pqau" };
+            PrintArray(strArr2, strArr2.Length);
+            Console.WriteLine("Output: {0}", square.VowelSquare(strArr2, strArr2.Length));
+            Console.WriteLine();
+        }
+
+
         #endregion
 
         #region Medium Challenges
