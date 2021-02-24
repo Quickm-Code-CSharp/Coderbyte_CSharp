@@ -312,6 +312,25 @@ namespace Coderbyte_CSharp
 
         }
 
+        public void Test_QuestionsMarks()
+        {
+            QuestionMarkSum  sum = new QuestionMarkSum();
+
+            string str = "arrb6???4xxbl5???eee5";
+            Console.WriteLine("Question Marks:");
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", sum.QuestionsMarks(str));
+            Console.WriteLine();
+
+            str = "arrb6??4xxbl5???eee8";
+            Console.WriteLine("Question Marks:");
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", sum.QuestionsMarks(str));
+            Console.WriteLine();
+
+
+        }
+
 
         #endregion
 

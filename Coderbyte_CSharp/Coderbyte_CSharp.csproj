@@ -52,6 +52,7 @@
     <Compile Include="1 Easy Challenges\MedianMovement.cs" />
     <Compile Include="1 Easy Challenges\NumberCheck.cs" />
     <Compile Include="1 Easy Challenges\PalindromeChecker.cs" />
+    <Compile Include="1 Easy Challenges\QuestionMarkSum.cs" />
     <Compile Include="1 Easy Challenges\SquareVowels.cs" />
     <Compile Include="1 Easy Challenges\StringIntersection.cs" />
     <Compile Include="1 Easy Challenges\StringReverse.cs" />
