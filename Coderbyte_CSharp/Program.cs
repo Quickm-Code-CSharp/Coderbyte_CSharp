@@ -31,6 +31,7 @@ namespace Coderbyte_CSharp
             tc.Test_LongestWord();
             tc.Test_MovingMedian();
             tc.Test_QuestionsMarks();
+            tc.Test_RemoveBrackets();
 
             // Medium
             Console.WriteLine("Medium Code Challenges:");

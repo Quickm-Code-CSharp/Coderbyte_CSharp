@@ -327,8 +327,22 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Input: {0}", str);
             Console.WriteLine("Output:  {0}", sum.QuestionsMarks(str));
             Console.WriteLine();
+        }
 
+        public void Test_RemoveBrackets()
+        {
+            StringBrackets brackets = new StringBrackets();
+            Console.WriteLine("Remove Brackets:");
 
+            string str = "(()))";
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", brackets.RemoveBrackets(str));
+            Console.WriteLine();
+
+            str = "(())";
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", brackets.RemoveBrackets(str));
+            Console.WriteLine();
         }
 
 
