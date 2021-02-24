@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Coderbyte_CSharp
 {
     class Program
     {
+        // ReSharper disable once UnusedParameter.Local
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Welcome to Coderbyte C-Sharp code challenge solutions...");
-            System.Console.WriteLine();
+            Console.WriteLine("Welcome to Coderbyte C-Sharp code challenge solutions...");
+            Console.WriteLine();
 
             TestChallenge tc = new TestChallenge();
 
@@ -31,22 +28,23 @@ namespace Coderbyte_CSharp
             tc.Test_ProductDigits();
             tc.Test_OtherProducts();
             tc.Test_VowelSquare();
+            tc.Test_LongestWord();
 
             // Medium
             Console.WriteLine("Medium Code Challenges:");
-            //tc.Test_Consecutive();
-            //tc.Test_KUniqueCharacters();
-            //tc.Test_NumberEncoding();
-            //tc.Test_PrimeMover();
-            //tc.Test_MinWindowSubstring();
-            //tc.Test_RunLength();
-            //tc.Test_StringReduction();
-            //tc.Test_TreeConstructor();
+            tc.Test_Consecutive();
+            tc.Test_KUniqueCharacters();
+            tc.Test_NumberEncoding();
+            tc.Test_PrimeMover();
+            tc.Test_MinWindowSubstring();
+            tc.Test_RunLength();
+            tc.Test_StringReduction();
+            tc.Test_TreeConstructor();
 
             // Hard
             Console.WriteLine("Hard Code Challenges:");
-            //tc.Test_KaprekarsConstant();
-            //tc.Test_Determinant();
+            tc.Test_KaprekarsConstant();
+            tc.Test_Determinant();
         }
     }
 }

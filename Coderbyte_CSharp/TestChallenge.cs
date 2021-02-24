@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 using Coderbyte_CSharp.Easy_Challenges;
 using Coderbyte_CSharp.Medium_Challenges;
@@ -16,7 +15,7 @@ namespace Coderbyte_CSharp
         protected  void  PrintArray(int[] arr, int length)
         {
 
-            List<int> data = arr.ToList<int>();
+            List<int> data = arr.ToList();
 
             Console.Write("Array:  [");
             StringBuilder sb = new StringBuilder();
@@ -30,14 +29,14 @@ namespace Coderbyte_CSharp
             // Remove last comma
             sb.Remove(sb.Length - 1, 1);
 
-            Console.Write("{0}]", sb.ToString());
+            Console.Write("{0}]", sb);
             Console.WriteLine();
         }
 
         protected void PrintArray(string[] arr, int length)
         {
 
-            List<string> data = arr.ToList<string>();
+            List<string> data = arr.ToList();
 
             Console.Write("Array:  [");
             StringBuilder sb = new StringBuilder();
@@ -51,7 +50,7 @@ namespace Coderbyte_CSharp
             // Remove last comma
             sb.Remove(sb.Length - 1, 1);
 
-            Console.Write("{0}]", sb.ToString());
+            Console.Write("{0}]", sb);
             Console.WriteLine();
         }
 
@@ -85,7 +84,7 @@ namespace Coderbyte_CSharp
         {
             int[]           arr     = new int[] { 2, 4, 8, 16 };
             int             length  = 4;
-            MathSequence sequence = new MathSequence(); ;
+            MathSequence sequence = new MathSequence(); 
 
             Console.WriteLine("ArithGeo Sequence:");
             PrintArray(arr, length);
@@ -288,6 +287,18 @@ namespace Coderbyte_CSharp
             Console.WriteLine();
         }
 
+        public void Test_LongestWord()
+        {
+            StringWords   longest = new StringWords();
+
+            string str = "The fox wouldn't lazy in the forest.";
+
+            Console.WriteLine("Longest Word:");
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", longest.LongestWord(str));
+            Console.WriteLine();
+        }
+
 
         #endregion
 
@@ -308,8 +319,6 @@ namespace Coderbyte_CSharp
 
         public void Test_KUniqueCharacters()
         {
-            StringUniqueSubstring uniqueFinder = new StringUniqueSubstring();
-
             string str = "2aabbacbaa";
             StringUniqueSubstring unique = new StringUniqueSubstring();
 
@@ -325,11 +334,9 @@ namespace Coderbyte_CSharp
         {
             NumberEncoder encoder = new NumberEncoder();
 
-            string str = "af5c a#!";
-            StringUniqueSubstring unique = new StringUniqueSubstring();
-
             Console.WriteLine("Number Encoding:");
 
+            string str = "af5c a#!";
             Console.WriteLine("Input:  {0}", str);
             Console.WriteLine("Output: {0}", encoder.NumberEncoding(str));
             Console.WriteLine();
@@ -364,7 +371,7 @@ namespace Coderbyte_CSharp
             string text = "ahffaksfajeeubsne";
             string pattern = "jefaa";
 
-            string[] strArr = new string[2]{ text, pattern };
+            string[] strArr = new string[]{ text, pattern };
 
             Console.WriteLine("Minimum Window Substring:");
 
@@ -460,10 +467,8 @@ namespace Coderbyte_CSharp
             Determinant d       = new Determinant();
 
             string[]    array   = new string[] { "1", "4", "3", "<>", "2", "3", "0", "<>", "5", "-3", "4" };
-            int         det;
 
             Console.WriteLine("Matrix Determinant:");
-            det = d.MatrixDeterminant(array, array.Length);
             PrintArray(array, array.Length);
             Console.WriteLine("Output: {0}", d.MatrixDeterminant(array, array.Length));
             Console.WriteLine();

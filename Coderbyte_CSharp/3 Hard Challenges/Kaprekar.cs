@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Coderbyte_CSharp.Hard_Challenges
 {
@@ -29,32 +26,32 @@ namespace Coderbyte_CSharp.Hard_Challenges
 
             while (remainder != 6174)
             {
-                remainder = descendInt(remainder) - ascendInt(remainder);
+                remainder = DescendInt(remainder) - AscendInt(remainder);
                 count++;
             }
 
             return count;
         }
 
-        protected int ascendInt(int num)
+        protected int AscendInt(int num)
         {
             int result = 0;
 
-            result = adjustInt(num, false);
+            result = AdjustInt(num, false);
 
             return result;
         }
 
-        protected int descendInt(int num)
+        protected int DescendInt(int num)
         {
             int result = 0;
 
-            result = adjustInt(num, true);
+            result = AdjustInt(num, true);
 
             return result;
         }
 
-	    private int adjustInt(int num, bool descend)
+	    private int AdjustInt(int num, bool descend)
         {
             int     result  = 0;
             int[]   arr     = new int[4];
@@ -65,7 +62,7 @@ namespace Coderbyte_CSharp.Hard_Challenges
             arr[2] = temp / 10; temp -= arr[2] * 10;
             arr[3] = temp;
 
-            List<int> valueList = arr.ToList<int>();
+            List<int> valueList = arr.ToList();
 
             if (descend)
             {

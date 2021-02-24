@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Coderbyte_CSharp.Medium_Challenges
 {
@@ -26,14 +23,14 @@ namespace Coderbyte_CSharp.Medium_Challenges
             int             uniqueLength    = (int)char.GetNumericValue(str[0]);
             string          localStr        = str.Substring(1);
             int             substrLength    = localStr.Length;
-            List<string>    substrings;
+            //List<string>    substrings      = new List<string>();
 
 
             while (!done)
             {
                 int uniqueCount = 0;
 
-                substrings = CreateSubstrings(localStr, substrLength);
+                List<string> substrings = CreateSubstrings(localStr, substrLength);
                 if (substrings.Count == 0)
                 {
                     continue;
@@ -78,7 +75,7 @@ namespace Coderbyte_CSharp.Medium_Challenges
             return count;
         }
 
-        List<string> CreateSubstrings(string str, int length)
+        protected List<string> CreateSubstrings(string str, int length)
         {
             List<string>    substrings  = new List<string>();
             int             strLength   = str.Length;

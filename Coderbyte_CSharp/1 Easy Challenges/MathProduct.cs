@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Coderbyte_CSharp.Easy_Challenges
 {
@@ -31,7 +29,7 @@ namespace Coderbyte_CSharp.Easy_Challenges
             int result = num.ToString().Length + 1; 
 
             int factor;
-            int value = 0;
+            int value;
             for (int index = 1; index <= Math.Sqrt(num); index++)
             {
                 // Is index a factor of num
@@ -60,8 +58,10 @@ namespace Coderbyte_CSharp.Easy_Challenges
         // elements and at least 1 element of only positive integers.
         public string OtherProducts(int[] arr, int length)
         {
+            // ReSharper disable once RedundantAssignment
             string      result          = String.Empty;
             List<int>   productValues   = new List<int>(length);
+            // ReSharper disable once TooWideLocalVariableScope
             int         product = 1;
 
             for (int index = 0; index < length; index++)

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Coderbyte_CSharp.Easy_Challenges
 {
@@ -13,10 +9,18 @@ namespace Coderbyte_CSharp.Easy_Challenges
             string  result = String.Empty;
             bool    same = false;
 
-            same = Math.Ceiling(Math.Log(num,2)) == Math.Floor(Math.Log(num, 2));
+            same = Same(num, 2);
 
             result = (same) ? "true" : "false";
             return result;
+        }
+
+        private static bool Same(int num, int baseValue)
+        {
+            bool same;
+            double tolerance = Double.Epsilon;
+            same = Math.Abs(Math.Ceiling(Math.Log(num, baseValue)) - Math.Floor(Math.Log(num, baseValue))) < tolerance;
+            return same;
         }
     }
 }

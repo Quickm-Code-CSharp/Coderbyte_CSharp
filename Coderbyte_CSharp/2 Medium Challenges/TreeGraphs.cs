@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Coderbyte_CSharp.Medium_Challenges
 {
@@ -20,7 +18,7 @@ namespace Coderbyte_CSharp.Medium_Challenges
             string                              result          = String.Empty;
 
             bool                                validTree       = true;
-            List<string>                        input           = strArr.ToList<string>();
+            List<string>                        input           = strArr.ToList();
             List<KeyValuePair<int, int>>        data            = new List<KeyValuePair<int, int>>();
             Dictionary<int, List<int>>          parents         = new Dictionary<int, List<int>>();
             Dictionary<int, int>                childCount      = new Dictionary<int, int>();
@@ -118,7 +116,7 @@ namespace Coderbyte_CSharp.Medium_Challenges
             string temp;
 
             // extract first number
-            pos = str.IndexOf(delimiter);
+            pos = str.IndexOf(delimiter, StringComparison.Ordinal);
             if (pos != -1)
             {
                 // remove ( char

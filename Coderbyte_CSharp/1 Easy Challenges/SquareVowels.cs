@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 // ReSharper disable CheckNamespace
 namespace Coderbyte_CSharp.Easy_Challenges
@@ -48,6 +45,7 @@ namespace Coderbyte_CSharp.Easy_Challenges
                 case 'y':
                     isValid = true;
                     break;
+                // ReSharper disable once RedundantEmptySwitchSection
                 default:
                     break;
             }

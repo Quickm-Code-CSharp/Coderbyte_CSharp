@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Coderbyte_CSharp.Medium_Challenges
 {
@@ -39,7 +36,7 @@ namespace Coderbyte_CSharp.Medium_Challenges
             string pattern = strArr[1];
 
             Dictionary<char, int> countMap = CreateCountMap(pattern);
-            List<string> windows = extractWindows(text, pattern.Length);
+            List<string> windows = ExtractWindows(text, pattern.Length);
 
             foreach (string window in windows) 
 	{
@@ -78,7 +75,7 @@ namespace Coderbyte_CSharp.Medium_Challenges
             return countMap;
         }
 
-        protected List<string> extractWindows(string str, int length)
+        protected List<string> ExtractWindows(string str, int length)
         {
             List<string>    windows     = new List<string>();
             int             strLength   = str.Length;

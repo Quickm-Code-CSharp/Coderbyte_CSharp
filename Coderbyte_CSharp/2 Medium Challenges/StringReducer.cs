@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Coderbyte_CSharp.Medium_Challenges
 {
@@ -88,7 +85,7 @@ namespace Coderbyte_CSharp.Medium_Challenges
 
             if (first == second)
             {
-                StringBuilder sb = new StringBuilder(); ;
+                StringBuilder sb = new StringBuilder(); 
 
                 sb.Append(first);
                 sb.Append(second);

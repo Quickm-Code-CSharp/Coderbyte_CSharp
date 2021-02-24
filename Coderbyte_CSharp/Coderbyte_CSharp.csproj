@@ -54,6 +54,7 @@
     <Compile Include="1 Easy Challenges\SquareVowels.cs" />
     <Compile Include="1 Easy Challenges\StringIntersection.cs" />
     <Compile Include="1 Easy Challenges\StringReverse.cs" />
+    <Compile Include="1 Easy Challenges\StringWords.cs" />
     <Compile Include="1 Easy Challenges\TimeConverter.cs" />
     <Compile Include="2 Medium Challenges\ConsecutiveNumbers.cs" />
     <Compile Include="2 Medium Challenges\NumberEncoder.cs" />

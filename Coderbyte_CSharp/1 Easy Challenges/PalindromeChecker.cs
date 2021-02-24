@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Coderbyte_CSharp.Easy_Challenges
 {
@@ -39,7 +35,7 @@ namespace Coderbyte_CSharp.Easy_Challenges
 
             string backwards = new string(charArray);
 
-            isPalindrome = (local.CompareTo(backwards) == 0);
+            isPalindrome = String.Compare(local, backwards, StringComparison.Ordinal) == 0;
 
             return isPalindrome;
         }

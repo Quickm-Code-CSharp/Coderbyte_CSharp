@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Coderbyte_CSharp.Medium_Challenges
 {
@@ -21,7 +18,7 @@ namespace Coderbyte_CSharp.Medium_Challenges
         {
             string          result  = String.Empty;
             int             length  = str.Length;
-            StringBuilder   sb      = new StringBuilder(); ;
+            StringBuilder   sb      = new StringBuilder(); 
 
             for (int index = 0; index < length; index++)
             {
