@@ -50,6 +50,7 @@
     <Compile Include="1 Easy Challenges\MathFibonacci.cs" />
     <Compile Include="1 Easy Challenges\MathProduct.cs" />
     <Compile Include="1 Easy Challenges\MathSequence.cs" />
+    <Compile Include="1 Easy Challenges\MathSummation.cs" />
     <Compile Include="1 Easy Challenges\MedianMovement.cs" />
     <Compile Include="1 Easy Challenges\NumberCheck.cs" />
     <Compile Include="1 Easy Challenges\PalindromeChecker.cs" />

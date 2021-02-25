@@ -366,6 +366,28 @@ namespace Coderbyte_CSharp
             Console.WriteLine();
         }
 
+        public void Test_SimpleAdding()
+        {
+            MathSummation  sum = new MathSummation();
+            Console.WriteLine("Simple Adding:");
+
+            int num = 5;
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output:  {0}", sum.SimpleAdding(num));
+            Console.WriteLine();
+
+            num = 15;
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output:  {0}", sum.SimpleAdding(num));
+            Console.WriteLine();
+
+            num = 215;
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output:  {0}", sum.SimpleAdding(num));
+            Console.WriteLine();
+
+        }
+
 
         #endregion
 

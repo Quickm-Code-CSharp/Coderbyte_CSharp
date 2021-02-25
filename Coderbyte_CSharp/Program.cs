@@ -33,6 +33,7 @@ namespace Coderbyte_CSharp
             tc.Test_QuestionsMarks();
             tc.Test_RemoveBrackets();
             tc.Test_FibonacciChecker();
+            tc.Test_SimpleAdding();
 
             // Medium
             Console.WriteLine("Medium Code Challenges:");
