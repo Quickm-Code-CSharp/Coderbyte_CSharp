@@ -63,6 +63,7 @@
     <Compile Include="1 Easy Challenges\StringSymbols.cs" />
     <Compile Include="1 Easy Challenges\StringWords.cs" />
     <Compile Include="1 Easy Challenges\TimeConverter.cs" />
+    <Compile Include="1 Easy Challenges\UsernameValidation.cs" />
     <Compile Include="2 Medium Challenges\ConsecutiveNumbers.cs" />
     <Compile Include="2 Medium Challenges\NumberEncoder.cs" />
     <Compile Include="2 Medium Challenges\PrimeNumber.cs" />

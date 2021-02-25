@@ -36,6 +36,7 @@ namespace Coderbyte_CSharp
             tc.Test_SimpleAdding();
             tc.Test_SimpleSymbols();
             tc.Test_StringPeriods();
+            tc.Test_UsernameValidation();
 
             // Medium
             Console.WriteLine("Medium Code Challenges:");

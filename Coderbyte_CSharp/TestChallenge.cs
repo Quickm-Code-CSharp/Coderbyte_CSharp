@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Coderbyte_CSharp._1_Easy_Challenges;
 using Coderbyte_CSharp.Easy_Challenges;
 using Coderbyte_CSharp.Medium_Challenges;
 using Coderbyte_CSharp.Hard_Challenges;
@@ -416,6 +417,28 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Input: {0}", str);
             Console.WriteLine("Output:  {0}", period.StringPeriods(str));
             Console.WriteLine();
+        }
+
+        public void Test_UsernameValidation()
+        {
+            UsernameValidation  validation = new UsernameValidation();
+            Console.WriteLine("Username Validation:");
+
+            string str = "jgklfnklg_";
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", validation.CodelandUsernameValidation(str));
+            Console.WriteLine();
+
+            str = "quick_gamester";
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", validation.CodelandUsernameValidation(str));
+            Console.WriteLine();
+
+            str = "jkfld%jfkdsl";
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", validation.CodelandUsernameValidation(str));
+            Console.WriteLine();
+
         }
 
 

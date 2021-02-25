@@ -22,6 +22,6 @@ Remove Brackets     02/24/2021      StringBrackets
 Simple Adding       02/24/2021      MathSummation
 Simple Symbols      02/24/2021      StringSymbols
 String Periods      02/24/2021      StringPeriod
-Time Convert        2/10/2021	    TimeConverter
-Username Validation
-Vowel Square		2/23/2021		SquareVowels
+Time Convert        02/10/2021	    TimeConverter
+Username Validation 02/24/2021      UsernameValidation
+Vowel Square		02/23/2021		SquareVowels
