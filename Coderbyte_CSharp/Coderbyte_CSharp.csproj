@@ -58,6 +58,7 @@
     <Compile Include="1 Easy Challenges\SquareVowels.cs" />
     <Compile Include="1 Easy Challenges\StringBrackets.cs" />
     <Compile Include="1 Easy Challenges\StringIntersection.cs" />
+    <Compile Include="1 Easy Challenges\StringPeriod.cs" />
     <Compile Include="1 Easy Challenges\StringReverse.cs" />
     <Compile Include="1 Easy Challenges\StringSymbols.cs" />
     <Compile Include="1 Easy Challenges\StringWords.cs" />

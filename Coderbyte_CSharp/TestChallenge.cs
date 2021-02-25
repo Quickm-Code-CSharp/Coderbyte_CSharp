@@ -397,6 +397,27 @@ namespace Coderbyte_CSharp
             Console.WriteLine();
         }
 
+        public void Test_StringPeriods()
+        {
+            StringPeriod period = new StringPeriod();
+            Console.WriteLine("Simple Periods:");
+
+            string str = "abcababcababcab";
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", period.StringPeriods(str));
+            Console.WriteLine();
+
+            str = "abababababab";
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", period.StringPeriods(str));
+            Console.WriteLine();
+
+            str = "abcxabc";
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", period.StringPeriods(str));
+            Console.WriteLine();
+        }
+
 
         #endregion
 
