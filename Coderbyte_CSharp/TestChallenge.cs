@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using Coderbyte_CSharp._Easy_Challenges;
 using Coderbyte_CSharp.Easy_Challenges;
 using Coderbyte_CSharp.Medium_Challenges;
 using Coderbyte_CSharp.Hard_Challenges;
@@ -342,6 +342,27 @@ namespace Coderbyte_CSharp
             str = "(())";
             Console.WriteLine("Input: {0}", str);
             Console.WriteLine("Output:  {0}", brackets.RemoveBrackets(str));
+            Console.WriteLine();
+        }
+
+        public void Test_FibonacciChecker()
+        {
+            MathFibonacci  fibonacci = new MathFibonacci();
+            Console.WriteLine("Fibonacci Checker:");
+
+            int num = 5;
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output:  {0}", fibonacci.FibonacciChecker(num));
+            Console.WriteLine();
+
+            num = 34;
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output:  {0}", fibonacci.FibonacciChecker(num));
+            Console.WriteLine();
+
+            num = 54;
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output:  {0}", fibonacci.FibonacciChecker(num));
             Console.WriteLine();
         }
 

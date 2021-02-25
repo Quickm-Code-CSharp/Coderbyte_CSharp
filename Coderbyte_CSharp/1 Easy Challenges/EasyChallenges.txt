@@ -5,6 +5,7 @@ Challenge:          C# Date:        Class
 Alphabet Soup       02/10/2021      AlphabetSorter
 ArithGeo            02/10/2021      MathSequence
 Check Numbers       02/10/2021      NumberCheck
+Fibonacci Checker   02/24/2021      MathFibonacci
 Find Intersection   02/11/2021      StringIntersection
 First Factorial		02/22/2021		Factorial
 First Reverse		02/22/2021		StringReverse
