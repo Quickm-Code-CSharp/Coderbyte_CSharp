@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Coderbyte_CSharp._Easy_Challenges;
 using Coderbyte_CSharp.Easy_Challenges;
 using Coderbyte_CSharp.Medium_Challenges;
 using Coderbyte_CSharp.Hard_Challenges;
@@ -385,7 +384,17 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Input: {0}", num);
             Console.WriteLine("Output:  {0}", sum.SimpleAdding(num));
             Console.WriteLine();
+        }
 
+        public void Test_SimpleSymbols()
+        {
+            StringSymbols symbols = new StringSymbols();
+            Console.WriteLine("Simple Symbols:");
+
+            string str = "++d+===+c++==a";
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", symbols.SimpleSymbols(str));
+            Console.WriteLine();
         }
 
 
