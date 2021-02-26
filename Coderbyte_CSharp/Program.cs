@@ -51,6 +51,7 @@ namespace Coderbyte_CSharp
 
             // Hard
             Console.WriteLine("Hard Code Challenges:");
+            tc.Test_ChessboardTraveling();
             tc.Test_KaprekarsConstant();
             tc.Test_Determinant();
         }

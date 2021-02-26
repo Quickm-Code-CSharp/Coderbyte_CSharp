@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Coderbyte_CSharp._1_Easy_Challenges;
+using Coderbyte_CSharp._3_Hard_Challenges;
 using Coderbyte_CSharp.Easy_Challenges;
 using Coderbyte_CSharp.Medium_Challenges;
 using Coderbyte_CSharp.Hard_Challenges;
@@ -613,6 +614,23 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Matrix Determinant:");
             PrintArray(array, array.Length);
             Console.WriteLine("Output: {0}", d.MatrixDeterminant(array, array.Length));
+            Console.WriteLine();
+
+        }
+
+        public void Test_ChessboardTraveling()
+        {
+            ChessBoard  board = new ChessBoard();
+            Console.WriteLine("Chessboard Traveling:");
+
+            string str = "(1 1)(2 2)";
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", board.ChessboardTraveling(str));
+            Console.WriteLine();
+
+            str = "(1 1)(5 4)";
+            Console.WriteLine("Input: {0}", str);
+            Console.WriteLine("Output:  {0}", board.ChessboardTraveling(str));
             Console.WriteLine();
 
         }

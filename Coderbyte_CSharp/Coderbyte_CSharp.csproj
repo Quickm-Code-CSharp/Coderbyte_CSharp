@@ -72,6 +72,7 @@
     <Compile Include="2 Medium Challenges\StringReducer.cs" />
     <Compile Include="2 Medium Challenges\StringUniqueSubstring.cs" />
     <Compile Include="2 Medium Challenges\TreeGraphs.cs" />
+    <Compile Include="3 Hard Challenges\ChessBoard.cs" />
     <Compile Include="3 Hard Challenges\Kaprekar.cs" />
     <Compile Include="3 Hard Challenges\MatrixDeterminant.cs" />
     <Compile Include="Program.cs" />
