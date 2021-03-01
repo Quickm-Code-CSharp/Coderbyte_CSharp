@@ -9,6 +9,6 @@ Preorder Traversal
 Prime Mover                 02/12/2021      PrimeNumber
 Run Length                  02/15/2021      StringCompression
 String Reduction            02/15/2021      StringReducer
-Symmetric Tree 
+Symmetric Tree              02/28/2021      TreeGraphs
 Tree Constructor            02/15/2021      TreeGraphs
 Minimum Window Substring    02/12/2021      StringMinimumWindow

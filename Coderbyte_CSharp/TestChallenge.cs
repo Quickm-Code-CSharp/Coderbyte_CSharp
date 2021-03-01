@@ -5,8 +5,8 @@ using System.Text;
 using Coderbyte_CSharp._1_Easy_Challenges;
 using Coderbyte_CSharp._3_Hard_Challenges;
 using Coderbyte_CSharp.Easy_Challenges;
-using Coderbyte_CSharp.Medium_Challenges;
 using Coderbyte_CSharp.Hard_Challenges;
+using Coderbyte_CSharp.Medium_Challenges;
 
 namespace Coderbyte_CSharp
 {
@@ -83,7 +83,7 @@ namespace Coderbyte_CSharp
 
         public  void Test_ArithGeoSequence()
         {
-            int[]           arr     = new int[] { 2, 4, 8, 16 };
+            int[]           arr     = { 2, 4, 8, 16 };
             int             length  = 4;
             MathSequence sequence = new MathSequence(); 
 
@@ -261,7 +261,7 @@ namespace Coderbyte_CSharp
         public void Test_OtherProducts()
         {
             MathProduct prod = new MathProduct();
-            int[] arr = new int[] {1, 2, 3, 4, 5 };
+            int[] arr = {1, 2, 3, 4, 5 };
             
 
             Console.WriteLine("Other Products:");
@@ -277,12 +277,12 @@ namespace Coderbyte_CSharp
 
             Console.WriteLine("Letter Changes:");
 
-            string[] strArr = new string[] { "abcd", "eikr", "oufj" };
+            string[] strArr = { "abcd", "eikr", "oufj" };
             PrintArray(strArr, strArr.Length);
             Console.WriteLine("Output: {0}", square.VowelSquare(strArr, strArr.Length));
             Console.WriteLine();
 
-            string[] strArr2 = new string[] { "lbzk", "ncdf", "mxio", "pqau" };
+            string[] strArr2 = { "lbzk", "ncdf", "mxio", "pqau" };
             PrintArray(strArr2, strArr2.Length);
             Console.WriteLine("Output: {0}", square.VowelSquare(strArr2, strArr2.Length));
             Console.WriteLine();
@@ -305,7 +305,7 @@ namespace Coderbyte_CSharp
             MedianMovement mover = new MedianMovement();
 
             Console.WriteLine("Moving Median:");
-            int[] arr = new int[] {3, 1, 3, 5, 10, 6, 4, 3, 1};
+            int[] arr = {3, 1, 3, 5, 10, 6, 4, 3, 1};
 
             PrintArray(arr, arr.Length);
             Console.WriteLine("Output: {0}", mover.MovingMedian(arr, arr.Length));
@@ -450,7 +450,7 @@ namespace Coderbyte_CSharp
         {
             ConsecutiveNumbers numbers = new ConsecutiveNumbers();
 
-            int[] arr = new int[] {4, 6, 8};
+            int[] arr = {4, 6, 8};
 
             Console.WriteLine("ArithGeo Sequence:");
 
@@ -514,7 +514,7 @@ namespace Coderbyte_CSharp
             string text = "ahffaksfajeeubsne";
             string pattern = "jefaa";
 
-            string[] strArr = new string[]{ text, pattern };
+            string[] strArr = { text, pattern };
 
             Console.WriteLine("Minimum Window Substring:");
 
@@ -574,21 +574,40 @@ namespace Coderbyte_CSharp
         public void Test_TreeConstructor()
         {
             TreeGraphs tree = new TreeGraphs();
-            string[] strArr = new string[] { "(1,2)", "(2,4)", "(7,2)" };
+            string[] strArr = { "(1,2)", "(2,4)", "(7,2)" };
 
             Console.WriteLine("Tree Constructor:");
             PrintArray(strArr, strArr.Length);
             Console.WriteLine("Output: {0}", tree.TreeConstructor(strArr, strArr.Length));
             Console.WriteLine();
 
-            string[] strArr2 = new string[] { "(1,2)", "(9,2)", "(2,4)", "(7,2)" };
+            string[] strArr2 = { "(1,2)", "(9,2)", "(2,4)", "(7,2)" };
             PrintArray(strArr2, strArr2.Length);
             Console.WriteLine("Output: {0}", tree.TreeConstructor(strArr2, strArr2.Length));
             Console.WriteLine();
 
-            string[] strArr3 = new string[] { "(1,2)", "(2,4)", "(5,7)", "(7,2)", "(9,5)" };
+            string[] strArr3 = { "(1,2)", "(2,4)", "(5,7)", "(7,2)", "(9,5)" };
             PrintArray(strArr3, strArr3.Length);
             Console.WriteLine("Output: {0}", tree.TreeConstructor(strArr3, strArr3.Length));
+            Console.WriteLine();
+        }
+
+        public void Test_SymmetricTree()
+        {
+            TreeGraphs  tree = new TreeGraphs();
+            Console.WriteLine("Symmetric Tree:");
+
+
+            string[] strArr = new[] { "1", "2", "2", "3", "#", "#", "3" };
+
+            PrintArray(strArr, strArr.Length);
+            Console.WriteLine("Output: {0}", tree.SymmetricTree(strArr, strArr.Length));
+            Console.WriteLine();
+
+            string[] strArr2 = new[] { "1", "2", "2", "3", "#", "3", "3" };
+
+            PrintArray(strArr2, strArr2.Length);
+            Console.WriteLine("Output: {0}", tree.SymmetricTree(strArr2, strArr2.Length));
             Console.WriteLine();
         }
         #endregion
@@ -609,7 +628,7 @@ namespace Coderbyte_CSharp
         {
             Determinant d       = new Determinant();
 
-            string[]    array   = new string[] { "1", "4", "3", "<>", "2", "3", "0", "<>", "5", "-3", "4" };
+            string[]    array   = { "1", "4", "3", "<>", "2", "3", "0", "<>", "5", "-3", "4" };
 
             Console.WriteLine("Matrix Determinant:");
             PrintArray(array, array.Length);
