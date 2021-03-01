@@ -610,6 +610,19 @@ namespace Coderbyte_CSharp
             Console.WriteLine("Output: {0}", tree.SymmetricTree(strArr2, strArr2.Length));
             Console.WriteLine();
         }
+
+        public void Test_PreorderTraversal()
+        {
+            TreeGraphs tree = new TreeGraphs();
+            Console.WriteLine("Preorder Traversal:");
+
+
+            string[] strArr = new[] { "5", "2", "6", "1", "9", "#", "8", "#", "#", "#", "#", "4", "#" };
+
+            PrintArray(strArr, strArr.Length);
+            Console.WriteLine("Output: {0}", tree.PreorderTraversal(strArr, strArr.Length));
+            Console.WriteLine();
+        }
         #endregion
 
         #region Hard Challenges

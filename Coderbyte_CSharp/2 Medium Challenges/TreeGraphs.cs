@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.SqlTypes;
 using System.Linq;
 using System.Net.Http.Headers;
+using System.Text;
 
 namespace Coderbyte_CSharp.Medium_Challenges
 {
@@ -136,6 +137,58 @@ namespace Coderbyte_CSharp.Medium_Challenges
             return result;
         }
 
+        // For this challenge you will be traversing a binary tree.
+        // have the function PreorderTraversal(strArr) take the array of strings stored 
+        // in strArr, which will represent a binary tree with integer values in a format 
+        // similar to how a binary heap is implemented with NULL nodes at any level 
+        // represented with a #. Your goal is to return the pre-order traversal of the 
+        // tree with the elements separated by a space. 
+        // For example: if strArr is ["5", "2", "6", "1", "9", "#", "8", "#", "#", "#", 
+        // "#", "4", "#"]
+        public string PreorderTraversal(string[] strArr, int length)
+        {
+            string result = String.Empty;
+
+            List<string> input = new List<string>(strArr);
+
+            // create tree
+            Node root = CreateTreeNode(input[0]);
+            root = FillTree(input, root, 0, input.Count);
+
+            result = CreatePreorderOutput(root);
+
+            return result;
+        }
+
+        protected string CreatePreorderOutput(Node node)
+        {
+            string result = String.Empty;
+
+            StringBuilder sb = new StringBuilder();
+
+            if ((node != null) && !node.Key.Equals(value: "#"))
+            {
+                /* first print data of node */
+                if (!node.Key.Equals("#"))
+                {
+                    sb.AppendFormat("{0} ",node.Key); 
+                }
+
+                /* then recur on left sutree */
+                var left = CreatePreorderOutput(node.Left);
+                sb.Append(left);
+
+                /* now recur on right subtree */
+                var right = CreatePreorderOutput(node.Right);
+                sb.Append(right);
+
+
+                result = sb.ToString();
+            }
+
+            return result;
+        }
+
         private Node FillTree(List<string> arr, Node root, int index, int length)
         {
             if (index < length)
@@ -143,11 +196,20 @@ namespace Coderbyte_CSharp.Medium_Challenges
                 Node temp = CreateTreeNode(arr[index]);
                 root = temp;
 
-                // insert left child 
-                root.Left = FillTree(arr, root.Left, 2 * index + 1, length);
+                if (temp != null)
+                {
+                    int childIndex = 2 * index + 1;
 
-                // insert right child 
-                root.Right = FillTree(arr, root.Right, 2 * index + 2, length);
+                    if (childIndex == length)
+                    {
+                        childIndex -= 2;
+                    }
+                    // insert left child 
+                    root.Left = FillTree(arr, root.Left, childIndex, length);
+
+                    // insert right child 
+                    root.Right = FillTree(arr, root.Right, childIndex+1, length);
+                }
             }
 
             return root;
@@ -219,7 +281,18 @@ namespace Coderbyte_CSharp.Medium_Challenges
             }
         }
 
-        protected Func<string, Node> CreateTreeNode = value => new Node(value);
+        protected Node CreateTreeNode(string data)
+        {
+            Node node = null;
+
+            if (!data.Equals("#"))
+            {
+                node = new Node(data);
+            }
+
+            return node;
+        }
+        
 
         protected bool IsTreeSymmetric(Node node1, Node node2)
         {

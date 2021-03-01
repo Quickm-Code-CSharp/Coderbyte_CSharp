@@ -49,6 +49,7 @@ namespace Coderbyte_CSharp
             tc.Test_StringReduction();
             tc.Test_TreeConstructor();
             tc.Test_SymmetricTree();
+            tc.Test_PreorderTraversal();
 
             // Hard
             Console.WriteLine("Hard Code Challenges:");
