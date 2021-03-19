@@ -8,14 +8,28 @@
         // and 18 and the input will always be an integer.
         public ulong FirstFactorial(int num)
         {
-            ulong factorial = (ulong)num;
+            //ulong factorial = (ulong)num;
 
-            for (int index = num - 1; index > 1; index--)
+            //for (int index = num - 1; index > 1; index--)
+            //{
+            //    factorial *= (ulong)index;
+            //}
+
+            //return factorial;
+
+            ulong result = 0;
+
+            if (num == 0)
             {
-                factorial *= (ulong)index;
+                result = 1;
             }
 
-            return factorial;
+            else
+            {
+                result = (ulong)num * FirstFactorial(num - 1);
+            }
+
+            return result;
         }
     }
 }

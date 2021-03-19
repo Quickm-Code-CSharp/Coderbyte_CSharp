@@ -159,12 +159,18 @@ namespace Coderbyte_CSharp
 
         public void Test_FirstFactorial()
         {
-            int num = 18;
-
+            Console.WriteLine("First Factorial:");
             Factorial compute = new Factorial();
 
-            Console.WriteLine("First Factorial:");
+            int num = 5;
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output: {0}", compute.FirstFactorial(num));
 
+            num = 10;
+            Console.WriteLine("Input: {0}", num);
+            Console.WriteLine("Output: {0}", compute.FirstFactorial(num));
+
+            num = 18;
             Console.WriteLine("Input: {0}", num);
             Console.WriteLine("Output: {0}", compute.FirstFactorial(num));
             Console.WriteLine();

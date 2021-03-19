@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Specialized;
 
 namespace Coderbyte_CSharp.Easy_Challenges
 {
@@ -15,6 +16,8 @@ namespace Coderbyte_CSharp.Easy_Challenges
             char[] charArray = str.ToCharArray();
             Array.Reverse(charArray);
             result = new string(charArray);
+
+            //Vector<int> x = new Vector<int>();
 
             return result;
         }
