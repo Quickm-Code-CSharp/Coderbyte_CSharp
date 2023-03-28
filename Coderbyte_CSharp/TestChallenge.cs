@@ -563,7 +563,7 @@ namespace Coderbyte_CSharp
             StringReducer   reducer     = new StringReducer();
             string          str         = "ac";
 
-            Console.WriteLine("Run Length:");
+            Console.WriteLine("String Reduction:");
 
             Console.WriteLine("Input:  {0}", str);
             Console.WriteLine("Output: {0}", reducer.StringReduction(str));

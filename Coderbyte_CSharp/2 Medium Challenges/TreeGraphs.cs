@@ -19,7 +19,6 @@ namespace Coderbyte_CSharp.Medium_Challenges
             Left  = null;
             Right = null;
         }
-
     }
 
     class TreeGraphs
@@ -304,9 +303,8 @@ namespace Coderbyte_CSharp.Medium_Challenges
                 isSymmetric = true;
             }
 
-            // For two trees to be mirror 
-            // images, the following
-            // three conditions must be true 
+            // For two trees to be mirror images, 
+            // the following three conditions must be true 
             // 1 - Their root node's data must be same 
             // 2 - left subtree of left tree and right subtree of right tree are equal
             // 3 - right subtree of left tree and left subtree of right tree are equal

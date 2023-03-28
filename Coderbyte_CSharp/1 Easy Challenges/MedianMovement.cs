@@ -26,8 +26,7 @@ namespace Coderbyte_CSharp.Easy_Challenges
                 sb.AppendFormat("{0},", median);
             }
 
-            result = sb.ToString();
-            result = result.TrimEnd(',');
+            result = sb.ToString().TrimEnd(',');
 
             return result;
         }
@@ -42,9 +41,7 @@ namespace Coderbyte_CSharp.Easy_Challenges
 
             median = (local.Count % 2 == 0) ? (local[half - 1] + local[half]) / 2
                                              : local[half];
-
             return median;
         }
-
     }
 }

@@ -23,8 +23,6 @@ namespace Coderbyte_CSharp.Medium_Challenges
             int             uniqueLength    = (int)char.GetNumericValue(str[0]);
             string          localStr        = str.Substring(1);
             int             substrLength    = localStr.Length;
-            //List<string>    substrings      = new List<string>();
-
 
             while (!done)
             {
@@ -71,7 +69,6 @@ namespace Coderbyte_CSharp.Medium_Challenges
             }
 
             count = charCount.Count;
-
             return count;
         }
 
@@ -97,7 +94,6 @@ namespace Coderbyte_CSharp.Medium_Challenges
             }
 
             return substrings;
-        }
-
+        } 
     }
 }

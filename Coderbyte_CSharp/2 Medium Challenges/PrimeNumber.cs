@@ -46,7 +46,6 @@ namespace Coderbyte_CSharp.Medium_Challenges
         {
             List<int> primes = new List<int>() { 2, 3, 5, 7, 11, 13, 17, 19 };
 
-
             return primes;
         }
 

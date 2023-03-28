@@ -39,7 +39,6 @@ namespace Coderbyte_CSharp.Medium_Challenges
             }
 
             result = sb.ToString();
-
             return result;
         }
 
@@ -60,7 +59,6 @@ namespace Coderbyte_CSharp.Medium_Challenges
             }
 
             repeating = (count > 1);
-
             return repeating;
         }
     }

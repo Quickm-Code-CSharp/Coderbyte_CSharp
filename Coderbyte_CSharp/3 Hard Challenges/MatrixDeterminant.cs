@@ -35,7 +35,6 @@ namespace Coderbyte_CSharp.Hard_Challenges
                 Console.WriteLine("matrix is not square");
             }
 
-
             return determinant;
         }
 
@@ -149,6 +148,5 @@ namespace Coderbyte_CSharp.Hard_Challenges
 
             return determinant;
         }
-
     }
 }

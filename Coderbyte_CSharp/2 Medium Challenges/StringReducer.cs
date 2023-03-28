@@ -56,13 +56,9 @@ namespace Coderbyte_CSharp.Medium_Challenges
                         // replace chars
                         localStr = localStr.Insert(index, temp);
                         
-                        //cout << " --> " << localStr;
-
                         // check if end criteria met
                         done = IsDone(localStr);
                     }
-
-                    //cout << endl;
 
                     if (done)
                     {

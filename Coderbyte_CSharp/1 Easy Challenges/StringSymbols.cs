@@ -24,10 +24,8 @@ namespace Coderbyte_CSharp.Easy_Challenges
                     {
                         break;
                     }
-                    else if (index != str.Length-1 && 
-                             index != 0 &&
-                             str[index - 1] == '+' && 
-                             str[index + 1] == '+')
+                    else if (index != str.Length-1 && index != 0 &&
+                             str[index - 1] == '+' && str[index + 1] == '+')
                     {
                         found = true;
                     }
@@ -35,7 +33,6 @@ namespace Coderbyte_CSharp.Easy_Challenges
             }
 
             result = found ? "true" : "false";
-
 
             return result;
         }

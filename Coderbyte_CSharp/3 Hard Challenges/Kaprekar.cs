@@ -38,7 +38,6 @@ namespace Coderbyte_CSharp.Hard_Challenges
             int result = 0;
 
             result = AdjustInt(num, false);
-
             return result;
         }
 
@@ -47,7 +46,6 @@ namespace Coderbyte_CSharp.Hard_Challenges
             int result = 0;
 
             result = AdjustInt(num, true);
-
             return result;
         }
 
@@ -74,7 +72,6 @@ namespace Coderbyte_CSharp.Hard_Challenges
             }
 
             result = valueList[0] * 1000 + valueList[1] * 100 + valueList[2] * 10 + valueList[3];
-
             return result;
         }
 

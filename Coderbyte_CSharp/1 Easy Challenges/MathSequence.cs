@@ -35,7 +35,6 @@ namespace Coderbyte_CSharp.Easy_Challenges
             }
 
             return result;
-
         }
 
         protected bool IsArithematicSequence(int[] arr, int length)
@@ -60,7 +59,6 @@ namespace Coderbyte_CSharp.Easy_Challenges
             }
 
             result = isSequence;
-
             return result;
         }
         protected bool IsGeometricSequence(int[] arr, int length)
@@ -86,7 +84,6 @@ namespace Coderbyte_CSharp.Easy_Challenges
             }
 
             result = isSequence;
-
             return result;
         }
     }

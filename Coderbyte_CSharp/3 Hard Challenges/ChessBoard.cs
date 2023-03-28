@@ -49,11 +49,9 @@ namespace Coderbyte_CSharp._3_Hard_Challenges
             str = str.Substring(1, str.Length - 2);
 
             // Get strings for 2 positions
-            string[] input = str.Split(")(".ToCharArray(),StringSplitOptions.RemoveEmptyEntries);
-
-            // 
+            string[] input    = str.Split(")(".ToCharArray(),     StringSplitOptions.RemoveEmptyEntries);
             string[] starting = input[0].Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
-            string[] ending = input[1].Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+            string[] ending   = input[1].Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
             
             x = Convert.ToInt32(starting[0]);
             y = Convert.ToInt32(starting[1]);
@@ -76,7 +74,6 @@ namespace Coderbyte_CSharp._3_Hard_Challenges
             var nFact  = factorial.FirstFactorial(n);
             var nkFact = factorial.FirstFactorial(n-k);
             var kFact  = factorial.FirstFactorial(k);
-
 
             result = (int)(nFact / (kFact * nkFact));
             return result;

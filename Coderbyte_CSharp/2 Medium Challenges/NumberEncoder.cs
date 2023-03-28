@@ -13,7 +13,6 @@ namespace Coderbyte_CSharp.Medium_Challenges
         // be used in the input. 
 
         // For example: if str is "af5c a#!" then your program should return 1653 1#!. 
-
         public string NumberEncoding(string str)
         {
             string                  result      = string.Empty;
@@ -36,7 +35,6 @@ namespace Coderbyte_CSharp.Medium_Challenges
             }
 
             result = sb.ToString();
-
             return result;
         }
 

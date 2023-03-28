@@ -17,8 +17,6 @@ namespace Coderbyte_CSharp.Easy_Challenges
             Array.Reverse(charArray);
             result = new string(charArray);
 
-            //Vector<int> x = new Vector<int>();
-
             return result;
         }
     }
