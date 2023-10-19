@@ -56,6 +56,8 @@ namespace Coderbyte_CSharp
             tc.Test_ChessboardTraveling();
             tc.Test_KaprekarsConstant();
             tc.Test_Determinant();
+
+            Console.ReadKey();
         }
     }
 }
