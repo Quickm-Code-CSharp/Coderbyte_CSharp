@@ -52,48 +52,30 @@ namespace Coderbyte_CSharp.Hard_Challenges
 	    private int AdjustInt(int num, bool descend)
         {
             int     result  = 0;
-            int[]   arr     = new int[4];
-            int     temp    = num;
-
-            arr[0] = temp / 1000; temp -= arr[0] * 1000;
-            arr[1] = temp / 100; temp -= arr[1] * 100;
-            arr[2] = temp / 10; temp -= arr[2] * 10;
-            arr[3] = temp;
+            int[]   arr     = ConvertToIntArray(num);
 
             List<int> valueList = arr.ToList();
+            valueList.Sort();
 
             if (descend)
             {
-                valueList.Sort(SortDescend);
-            }
-            else
-            {
-                valueList.Sort();
+                valueList.Reverse();
             }
 
-            result = valueList[0] * 1000 + valueList[1] * 100 + valueList[2] * 10 + valueList[3];
+            result = int.Parse(string.Join("", valueList));
             return result;
         }
 
-        private int SortDescend(int a, int b)
+        private int[] ConvertToIntArray(int value)
         {
-            int result = 0;
+            var numbers = new Stack<int>();
 
-            if (a > b)
+            for (; value > 0; value /= 10)
             {
-                result = -1;
+                numbers.Push(value % 10);
             }
 
-            else if (a < b)
-            {
-                result = 1;
-            }
-            else
-            {
-                result = 0;
-            }
-
-            return result; 
+            return numbers.ToArray();
         }
 
 
