@@ -3,4 +3,4 @@ Coderbyte code challenges: This repository contains code solutions written in C#
 
 There is a directory for each difficulty level of completed code challenges. The difficult levels are Easy, Medium, and Hard.  
 
-Each difficuly level directory contains a text file listing the completed challenges for that difficulty level.  Each class for the code challenge contains the challenge description.
+Each difficulty level directory contains a text file listing the completed challenges for that difficulty level.  Each class for the code challenge contains the challenge description.
